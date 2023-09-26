@@ -41,3 +41,10 @@ span {
   align-items: center;
   width: 100%;
 }
+
+/* media query */
+@media (max-width: 600px) {
+    section.about {
+        flex-direction: column;
+      }
+}

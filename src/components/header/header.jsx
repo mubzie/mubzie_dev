@@ -24,17 +24,21 @@ const Header = () => {
       </nav> */}
 
       <div className={styles.landingPage}>
-        <div className={styles.name}>Hi, I&apos;m Mubarak</div>
+        <div className={styles.name}>Hi, I&apos;m Mubarak 👋🏿</div>
         <div className={styles.title}>A Frontend Developer</div>
         <div className={styles.iconContainer}>
           <div className="twitter">
             <span className="icon">
-              <img src={twitter} className={styles.twiiterIcon}></img>
+              <a href="https://twitter.com/mubzie_">
+                <img src={twitter} className={styles.twiiterIcon}></img>
+              </a>
             </span>
           </div>
           <div className="linkedIn">
             <span className="icon">
-              <img src={github} className={styles.githubIcon}></img>
+              <a href="https://github.com/mubzie">
+                <img src={github} className={styles.githubIcon}></img>
+              </a>
             </span>
           </div>
         </div>
