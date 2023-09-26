@@ -38,7 +38,7 @@ const Project = () => {
               </div>
             </div>
             <p className={styles.para}>
-              his is the second task that was given to the frontend Intern. The
+              This is the second task that was given to the frontend Intern. The
               purpose of this task is to test the ability of frontend intern on
               how to consume API.
             </p>
