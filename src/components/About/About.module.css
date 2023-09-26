@@ -1,0 +1,43 @@
+section.about {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+  width: 640px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+
+  /* padding: 8px; */
+  text-wrap: nowrap;
+}
+
+section.skill {
+  width: 640px;
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+
+.container {
+  display: flex;
+  gap: 24px;
+  margin-left: -8px;
+}
+
+.skill {
+  font-size: 24px;
+  font-weight: 500;
+
+  width: 120px;
+}
+
+span {
+  font-size: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+}

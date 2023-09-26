@@ -1,0 +1,41 @@
+section.project {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+  width: 640px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 8px;
+  text-wrap: nowrap;
+  width: 120px;
+}
+
+p {
+  margin-block-start: 0.03rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stackContainer {
+  max-width: 400px;
+  display: flex;
+  gap: 16px;
+}
+
+span.stack {
+  padding: 4px 16px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

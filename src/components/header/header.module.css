@@ -1,0 +1,54 @@
+nav.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: inherit;
+}
+
+.headerTag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fireIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.headerName {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.landingPage {
+  padding: 8px 16px;
+  margin-top: 88px;
+}
+
+.name {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.iconContainer {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+img {
+  width: 24px;
+  height: 24px;
+}
+
+.githubIcon {
+  width: 28px;
+  height: 28px;
+}
