@@ -7,7 +7,7 @@ import fire from "/src/assets/icon-fire.png";
 const Header = () => {
   return (
     <>
-      <nav className={styles.header}>
+      {/* <nav className={styles.header}>
         <div className={styles.headerTag}>
           <span className="icon">
             <img src={fire} className={styles.fireIcon}></img>
@@ -21,11 +21,11 @@ const Header = () => {
             <img src={icon}></img>
           </span>
         </div>
-      </nav>
+      </nav> */}
 
       <div className={styles.landingPage}>
-        <div className={styles.name}>Mubarak Rabiu</div>
-        <div className={styles.title}>Frontend Developer</div>
+        <div className={styles.name}>Hi, I&apos;m Mubarak</div>
+        <div className={styles.title}>A Frontend Developer</div>
         <div className={styles.iconContainer}>
           <div className="twitter">
             <span className="icon">
