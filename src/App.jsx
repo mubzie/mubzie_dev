@@ -3,8 +3,11 @@ import About from "./components/About/About";
 import Project from "./components/Project/Project";
 import "./App.css";
 import Background from "./components/Background/Background";
-import ExperienceCard from "./components/Card/ExperienceCard";
+import ExperienceCard from "./components/Card/Experience/ExperienceCard";
 import cardImage from "./assets/work-card1.png";
+import cardImage2 from "./assets/work-card2.jpg";
+import WorkCard from "./components/Card/Work/WorkCard";
+import Paintbrush from "./assets/icons/paintbrush.svg?react";
 
 function App() {
   return (
@@ -18,6 +21,7 @@ function App() {
         date="Nov 2023 - May 2024"
         description="I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences."
       />
+      <WorkCard src={cardImage2} icon={<Paintbrush />} text="Illustration" />
       <About />
       <Project />
     </>
