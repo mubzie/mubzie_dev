@@ -1,0 +1,20 @@
+.title {
+  color: var(--text-color-white-300);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 500;
+  color: var(--text-color-white-200);
+}
+
+/* media quiries*/
+@media (max-width: 500px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
