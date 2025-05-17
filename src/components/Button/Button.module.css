@@ -1,0 +1,31 @@
+/* Base button styles */
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm);
+  max-width: 192px;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--spacing-2xl);
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+/* Variant styles */
+.primary {
+  background-color: var(--bg-color-black);
+  color: var(--text-color-black-300);
+}
+
+.secondary {
+  background-color: var(--text-color-black-300);
+  color: var(--text-color-white-300);
+}
+
+span {
+  width: auto;
+}

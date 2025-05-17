@@ -9,6 +9,23 @@
   --text-color-black-300: hsl(0, 0%, 88%);
   --text-color-black-200: hsl(60, 7%, 79%);
   --text-color-black-100: hsl(53, 3%, 47%);
+
+  --base-font-size: 16px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 56px;
+  --spacing-5xl: 64px;
 }
 
 body {

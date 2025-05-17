@@ -1,4 +1,6 @@
 import styles from "./Background.module.css";
+import Button from "../Button/Button";
+import ChevronRight from "../../assets/icons/chevron-right.svg?react";
 
 function Background() {
   return (
@@ -18,6 +20,7 @@ function Background() {
         creative vision with practical implementation, ensuring that every
         solution is both impactful and achievable.
       </p>
+      <Button text="View my resume" rightIcon={<ChevronRight />} />
     </div>
   );
 }
