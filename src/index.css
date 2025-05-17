@@ -2,6 +2,8 @@
   --bg-color-white: hsl(0, 0%, 100%);
   --bg-color-black: hsl(0, 0%, 7%);
 
+  --bg-color-gray-50: hsl(0, 0%, 98%);
+
   --text-color-white-300: hsl(0, 0%, 10%);
   --text-color-white-200: hsl(0, 0%, 44%);
   --text-color-white-100: hsl(0, 0%, 62%);
@@ -11,6 +13,7 @@
   --text-color-black-100: hsl(53, 3%, 47%);
 
   --base-font-size: 16px;
+  --font-size-xsm: 12px;
   --font-size-sm: 14px;
   --font-size-md: 16px;
   --font-size-lg: 18px;
@@ -26,6 +29,10 @@
   --spacing-3xl: 48px;
   --spacing-4xl: 56px;
   --spacing-5xl: 64px;
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 16px;
 }
 
 body {

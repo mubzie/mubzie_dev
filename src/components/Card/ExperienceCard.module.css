@@ -1,0 +1,47 @@
+.container {
+  background-color: var(--bg-color-gray-50);
+  padding: var(--spacing-sm);
+  display: flex;
+  gap: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+}
+
+.imageWrapper img {
+  min-width: 100%;
+  width: 172px;
+  height: 100%;
+  border-radius: var(--border-radius-md);
+}
+
+.textContainer {
+  min-width: 272px;
+}
+
+.organizationName,
+.date,
+.description {
+  margin: 0;
+}
+
+.organizationName {
+  font-size: var(--base-font-size);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text-color-white-300);
+}
+
+.date {
+  font-size: var(--font-size-xsm);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-top: var(--spacing-sm);
+  color: var(--text-color-white-100);
+}
+
+.description {
+  font-size: var(--base-font-size);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--text-color-white-200);
+  margin-top: var(--spacing-md);
+}
