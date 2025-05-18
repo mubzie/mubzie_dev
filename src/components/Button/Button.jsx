@@ -12,11 +12,13 @@ function Button({
   const buttonClass = `${styles.button} ${styles[variant]} ${className}`;
 
   return (
-    <button className={buttonClass} onClick={onClick}>
-      {leftIcon && <span className={styles.leftIcon}>{leftIcon}</span>}
-      {text}
-      {rightIcon && <span className={styles.RightIcon}>{rightIcon}</span>}
-    </button>
+    <div className={className}>
+      <button className={buttonClass} onClick={onClick}>
+        {leftIcon && <span className={styles.leftIcon}>{leftIcon}</span>}
+        {text}
+        {rightIcon && <span className={styles.RightIcon}>{rightIcon}</span>}
+      </button>
+    </div>
   );
 }
 

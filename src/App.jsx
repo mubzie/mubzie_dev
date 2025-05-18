@@ -8,6 +8,7 @@ import cardImage from "./assets/work-card1.png";
 import cardImage2 from "./assets/work-card2.jpg";
 import WorkCard from "./components/Card/Work/WorkCard";
 import Paintbrush from "./assets/icons/paintbrush.svg?react";
+import MessageForm from "./components/MessageForm/MessageForm";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         description="I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences."
       />
       <WorkCard src={cardImage2} icon={<Paintbrush />} text="Illustration" />
+      <MessageForm />
       <About />
       <Project />
     </>

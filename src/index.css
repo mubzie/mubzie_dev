@@ -3,6 +3,7 @@
   --bg-color-black: hsl(0, 0%, 7%);
 
   --bg-color-gray-50: hsl(0, 0%, 98%);
+  --bg-color-gray-100: hsl(0, 0%, 92%);
 
   --text-color-white-300: hsl(0, 0%, 10%);
   --text-color-white-200: hsl(0, 0%, 44%);
@@ -36,6 +37,8 @@
   --border-radius-xl: 24px;
   --border-radius-2xl: 32px;
   --border-radius-3xl: 40px;
+
+  --border-color-150: hsl(0, 0%, 92%);
 }
 
 body {

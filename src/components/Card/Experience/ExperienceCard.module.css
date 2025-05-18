@@ -4,6 +4,7 @@
   display: flex;
   gap: var(--spacing-md);
   border-radius: var(--border-radius-md);
+  border: 1px solid var(--border-color-150);
 }
 
 .imageWrapper img {
