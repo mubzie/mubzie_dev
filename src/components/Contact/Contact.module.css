@@ -1,0 +1,25 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+  margin-top: var(--spacing-md);
+}
+
+.textContainer h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 272px;
+  text-align: center;
+}
+
+.contactLinkContainer {
+  margin-top: var(--spacing-5xl);
+}
+
+.footerText {
+  margin-top: var(--spacing-3xl);
+  margin-bottom: var(--spacing-5xl);
+}

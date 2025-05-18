@@ -1,6 +1,5 @@
 .contactLinkContainer {
   display: flex;
-  gap: var(--spacing-xs);
 }
 
 .contactLinkContainer a {
