@@ -1,0 +1,32 @@
+.contactLinkContainer {
+  display: flex;
+  gap: var(--spacing-xs);
+}
+
+.contactLinkContainer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+  padding: var(--spacing-sm);
+  border-radius: var(--spacing-sm);
+  border: 1px solid var(--border-color-150);
+  background-color: var(--bg-color-white);
+}
+
+a {
+  transform: rotateY(0) rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: rotateY(0) rotate(0);
+  background-color: var(--bg-color-gray-50);
+}
+
+a > img {
+  width: 32px;
+  height: 32px;
+}

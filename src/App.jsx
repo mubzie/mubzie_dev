@@ -9,6 +9,7 @@ import cardImage2 from "./assets/work-card2.jpg";
 import WorkCard from "./components/Card/Work/WorkCard";
 import Paintbrush from "./assets/icons/paintbrush.svg?react";
 import MessageForm from "./components/MessageForm/MessageForm";
+import ContactLink from "./components/ContactLink/ContactLink";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       />
       <WorkCard src={cardImage2} icon={<Paintbrush />} text="Illustration" />
       <MessageForm />
+      <ContactLink />
       <About />
       <Project />
     </>
