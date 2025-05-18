@@ -46,3 +46,9 @@
   color: var(--text-color-white-200);
   margin-top: var(--spacing-md);
 }
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+}

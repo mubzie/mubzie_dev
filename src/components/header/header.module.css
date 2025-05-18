@@ -13,3 +13,10 @@ h3 {
 .name {
   margin-bottom: 40px;
 }
+
+@media (max-width: 500px) {
+  .name {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -44,3 +44,15 @@ span .iconWrapper {
   font-weight: 600;
   color: var(--bg-color-white);
 }
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    width: 100%;
+    height: auto;
+    /* height: 300px; */
+  }
+}

@@ -23,3 +23,21 @@
   margin-top: var(--spacing-3xl);
   margin-bottom: var(--spacing-5xl);
 }
+
+@media (max-width: 500px) {
+  .contactContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  .contactLinkContainer {
+    margin-top: var(--spacing-3xl);
+  }
+
+  .footerText {
+    margin-top: var(--spacing-2xl);
+    margin-bottom: var(--spacing-3xl);
+    text-align: center;
+  }
+}
