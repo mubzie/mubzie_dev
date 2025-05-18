@@ -1,0 +1,21 @@
+h3 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+
+p {
+  margin: 0;
+  margin-top: var(--spacing-sm);
+  font-size: var(--base-font-size);
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--text-color-white-200);
+}
+
+.experienceCards {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
