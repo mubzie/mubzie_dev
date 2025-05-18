@@ -26,6 +26,7 @@
   color: var(--text-color-white-300);
 }
 
-span {
-  width: auto;
+button span {
+  width: 24px;
+  height: 24px;
 }

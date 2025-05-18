@@ -1,56 +1,15 @@
-nav.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: inherit;
+.header {
+  margin-top: 96px;
+  margin-bottom: 40;
 }
 
-.headerTag {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.fireIcon {
-  width: 32px;
-  height: 32px;
-}
-
-.headerName {
-  font-size: 16px;
+h3 {
+  margin: 0;
+  font-size: 24px;
   font-weight: 600;
-  line-height: 0;
-}
-
-.landingPage {
-  padding: 8px 16px;
-  margin-top: 88px;
+  line-height: 1.3;
 }
 
 .name {
-  font-size: 56px;
-  font-weight: 600;
+  margin-bottom: 40px;
 }
-
-.iconContainer {
-  margin-top: 16px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.title {
-  font-size: 24px;
-}
-
-img {
-  width: 24px;
-  height: 24px;
-}
-
-.githubIcon {
-  width: 28px;
-  height: 28px;
-}
-
-

@@ -2,7 +2,7 @@ import linkedInIcon from "../../assets/linkedIn.png";
 import githubIcon from "../../assets/github.png";
 import dribbleIcon from "../../assets/dribbble.png";
 import behanceIcon from "../../assets/behance.png";
-import twitterIcon from "../../assets/twitter.png";
+import twitterIcon from "../../assets/icon-twitter.png";
 import styles from "./ContactLink.module.css";
 
 const socialLinks = [

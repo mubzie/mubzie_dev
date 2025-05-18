@@ -1,8 +1,5 @@
-import Header from "./components/header/header";
-import About from "./components/About/About";
-import Project from "./components/Project/Project";
+import Header from "./components/Header/Header";
 import "./App.css";
-import Background from "./components/Background/Background";
 import ExperienceCard from "./components/Card/Experience/ExperienceCard";
 import cardImage from "./assets/work-card1.png";
 import cardImage2 from "./assets/work-card2.jpg";
@@ -15,7 +12,6 @@ function App() {
   return (
     <>
       <Header />
-      <Background />
       <ExperienceCard
         src={cardImage}
         altText="Company Logo"
@@ -26,8 +22,6 @@ function App() {
       <WorkCard src={cardImage2} icon={<Paintbrush />} text="Illustration" />
       <MessageForm />
       <ContactLink />
-      <About />
-      <Project />
     </>
   );
 }
