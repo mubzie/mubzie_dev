@@ -3,6 +3,13 @@ import Button from "../Button/Button";
 import ChevronRight from "../../assets/icons/chevron-right.svg?react";
 
 function Background() {
+  const handleButtonClick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1GUd-awDFRmUn-MVsblINioVztJt-CEne/view?usp=drive_link",
+      "_blank"
+    );
+  };
+  
   return (
     <div className={styles.container}>
       <h3 className={styles.title}>Background</h3>
@@ -14,7 +21,11 @@ function Background() {
         approach—turning challenges into elegant solutions. I love collaborating
         with teams that value innovation and execution.
       </p>
-      <Button text="View my resume" rightIcon={<ChevronRight />} />
+      <Button
+        onClick={handleButtonClick}
+        text="View my resume"
+        rightIcon={<ChevronRight />}
+      />
     </div>
   );
 }
