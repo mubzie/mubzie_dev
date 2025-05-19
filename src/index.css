@@ -14,13 +14,13 @@
   --text-color-black-200: hsl(60, 7%, 79%);
   --text-color-black-100: hsl(53, 3%, 47%);
 
-  --base-font-size: 16px;
-  --font-size-xsm: 12px;
-  --font-size-sm: 14px;
-  --font-size-md: 16px;
-  --font-size-lg: 18px;
-  --font-size-xl: 20px;
-  --font-size-2xl: 24px;
+  --base-font-size: 1rem;
+  --font-size-xsm: .75rem;
+  --font-size-sm: .875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
 
   --spacing-xs: 4px;
   --spacing-sm: 8px;

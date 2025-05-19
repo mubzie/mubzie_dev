@@ -6,20 +6,20 @@ import styles from "./Experience.module.css";
 const experienceData = [
   {
     organizationName: "Curaboard (Formerly Wishpo) - Product design (Contract)",
-    date: "Nov 2023 - May 2024",
+    date: "Oct 2023 - Mar 2024",
     src: cardImage,
     altText: "Company Logo",
     description:
-      "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
+      "Tasked with designing an intuitive user and admin dashboards that is focused on clarity and brand consistency.",
   },
   {
     organizationName:
       "Microsoft ADC Student League - Design engineer (Volunteer)",
-    date: "Nov 2023 - May 2024",
+    date: "May 2023 - Feb 2024",
     src: cardImage2,
     altText: "Company Logo",
     description:
-      "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
+      "I helped bridged UX and engineering to create functional, user-centric tools for an edtech solution for student developers.",
   },
 ];
 
