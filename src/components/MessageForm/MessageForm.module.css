@@ -70,6 +70,7 @@ textarea:focus {
   background-color: var(--bg-color-black);
   color: var(--text-color-black-300);
   border-radius: var(--border-radius-sm);
+  cursor: pointer;
 }
 
 .active:hover {
