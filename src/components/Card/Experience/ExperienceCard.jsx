@@ -1,7 +1,14 @@
 import PropTypes from "prop-types";
 import styles from "./ExperienceCard.module.css";
 
-function ExperienceCard({ src, altText, organizationName, date, description }) {
+function ExperienceCard({
+  src,
+  altText,
+  organizationName,
+  date,
+  description,
+  link,
+}) {
   return (
     <div className={styles.container}>
       <div className={styles.imageWrapper}>
@@ -9,7 +16,14 @@ function ExperienceCard({ src, altText, organizationName, date, description }) {
       </div>
 
       <div className={styles.textContainer}>
-        <h3 className={styles.organizationName}>{organizationName}</h3>
+        <a
+          href={link}
+          target="blank"
+          rel="noopener noreferrer"
+          className={styles.organizationName}
+        >
+          {organizationName}
+        </a>
         <p className={styles.date}>{date}</p>
         <p className={styles.description}>{description}</p>
       </div>
@@ -23,6 +37,7 @@ ExperienceCard.propTypes = {
   organizationName: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  link: PropTypes.string,
 };
 
 export default ExperienceCard;

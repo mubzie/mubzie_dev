@@ -18,6 +18,19 @@
   min-width: 272px;
 }
 
+.textContainer a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.textContainer a:hover {
+  text-decoration: underline;
+}
+
+.textContainer a:visited {
+  text-decoration: none;
+}
+
 .organizationName,
 .date,
 .description {

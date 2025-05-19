@@ -11,6 +11,7 @@ const experienceData = [
     altText: "Company Logo",
     description:
       "Tasked with designing an intuitive user and admin dashboards that is focused on clarity and brand consistency.",
+    link: "https://www.curaboard.com/",
   },
   {
     organizationName:
@@ -37,6 +38,7 @@ function Experience() {
       <div className={styles.experienceCards}>
         {experienceData.map((experience) => (
           <ExperienceCard
+            link={experience.link}
             key={experience.organizationName}
             src={experience.src}
             altText="Company Logo"
