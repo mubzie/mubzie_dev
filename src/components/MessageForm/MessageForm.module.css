@@ -46,7 +46,6 @@ textarea:focus {
 
 .buttonContainer {
   width: 100%;
-  margin-top: var(--spacing-xs);
 }
 
 .buttonContainer > button {
@@ -58,6 +57,22 @@ textarea:focus {
   font-size: var(--base-font-size);
   font-weight: 500;
   line-height: 1.5;
+}
+
+.disabled {
+  background-color: var(--text-color-white-200);
+  color: var(--text-color-black-300);
+  border-radius: var(--border-radius-sm);
+}
+
+.active {
+  background-color: var(--bg-color-black);
+  color: var(--text-color-black-300);
+  border-radius: var(--border-radius-sm);
+}
+
+.active:hover {
+  background-color: var(--bg-color-gray-200);
 }
 
 @media (max-width: 500px) {

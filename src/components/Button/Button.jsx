@@ -6,7 +6,7 @@ function Button({
   className,
   leftIcon,
   rightIcon,
-  variant = "primary",
+  variant,
   onClick,
   ...delegated
 }) {

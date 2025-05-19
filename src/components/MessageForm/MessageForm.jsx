@@ -88,7 +88,9 @@ function MessageForm() {
         disabled={!isInputValid}
         text="Send message"
         value="send"
-        className={styles.buttonContainer}
+        className={`${styles.buttonContainer} ${
+          !isInputValid ? styles.disabled : styles.active
+        }`}
       />
     </form>
   );
