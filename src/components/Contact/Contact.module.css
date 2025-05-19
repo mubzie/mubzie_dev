@@ -20,7 +20,7 @@
 }
 
 .footer {
-  margin-top: var(--spacing-3xl);
+  margin-top: var(--spacing-lg);
   margin-bottom: var(--spacing-5xl);
 }
 
@@ -50,7 +50,7 @@
   }
 
   .footer {
-    margin-top: var(--spacing-2xl);
+    margin-top: var(--spacing-lg);
     margin-bottom: var(--spacing-3xl);
     text-align: center;
   }

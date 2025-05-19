@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className={styles.header}>
       <h3 className={styles.name}>
-        Mubarak Rabiu - A multidisciplinary designer.
+        Mubarak Rabiu - A multidisciplinary product designer.
       </h3>
       <Background />
     </div>

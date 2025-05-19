@@ -1,17 +1,23 @@
 import ExperienceCard from "../Card/Experience/ExperienceCard";
 import cardImage from "../../assets/curaboard.png";
+import cardImage2 from "../../assets/microsoft-adc.png";
 import styles from "./Experience.module.css";
 
 const experienceData = [
   {
     organizationName: "Curaboard (Formerly Wishpo) - Product design (Contract)",
     date: "Nov 2023 - May 2024",
+    src: cardImage,
+    altText: "Company Logo",
     description:
       "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
   },
   {
-    organizationName: "Curaboard (Formerly Wishpo)",
+    organizationName:
+      "Microsoft ADC Student League - Design engineer (Volunteer)",
     date: "Nov 2023 - May 2024",
+    src: cardImage2,
+    altText: "Company Logo",
     description:
       "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
   },
@@ -32,7 +38,7 @@ function Experience() {
         {experienceData.map((experience) => (
           <ExperienceCard
             key={experience.organizationName}
-            src={cardImage}
+            src={experience.src}
             altText="Company Logo"
             organizationName={experience.organizationName}
             date={experience.date}
