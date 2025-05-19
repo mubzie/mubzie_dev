@@ -7,6 +7,8 @@ function MessageForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    console.log("Message sent:", message);
   };
 
   return (
@@ -15,10 +17,12 @@ function MessageForm() {
       <textarea
         name="message"
         id="message"
+        placeholder="Type your message here..."
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         rows={4}
         cols={40}
+        required
       ></textarea>
 
       <Button text="Send message" className={styles.buttonContainer} />

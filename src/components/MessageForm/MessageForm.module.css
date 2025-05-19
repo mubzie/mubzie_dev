@@ -16,7 +16,7 @@ textarea {
   font-family: "Inter", sans-serif;
   font-size: var(--font-size-md);
   line-height: 1.5;
-  color: var(--text-color-white-200);
+  color: var(--text-color-white-300);
 }
 
 textarea:focus {
