@@ -31,7 +31,16 @@ function MessageForm() {
 
   return (
     <form ref={form} onSubmit={handleSubmit} className={styles.form}>
-      <label htmlFor="message"></label>
+      <input type="text" name="name" id="name" placeholder="Name*" required />
+
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email*"
+        required
+      />
+
       <textarea
         name="message"
         id="message"
@@ -43,7 +52,11 @@ function MessageForm() {
         required
       ></textarea>
 
-      <Button text="Send message" value="send" className={styles.buttonContainer} />
+      <Button
+        text="Send message"
+        value="send"
+        className={styles.buttonContainer}
+      />
     </form>
   );
 }
