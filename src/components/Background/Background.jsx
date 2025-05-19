@@ -24,6 +24,7 @@ function Background() {
       <Button
         onClick={handleButtonClick}
         text="View my resume"
+        variant="primary"
         rightIcon={<ChevronRight />}
       />
     </div>
