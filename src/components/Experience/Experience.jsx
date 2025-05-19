@@ -21,6 +21,7 @@ const experienceData = [
     altText: "Company Logo",
     description:
       "I helped bridged UX and engineering to create functional, user-centric tools for an edtech solution for student developers.",
+    link: "https://www.microsoft.com/en-us/madc",
   },
 ];
 
