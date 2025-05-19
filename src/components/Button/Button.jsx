@@ -8,12 +8,13 @@ function Button({
   rightIcon,
   variant = "primary",
   onClick,
+  ...delegated
 }) {
   const buttonClass = `${styles.button} ${styles[variant]} ${className}`;
 
   return (
     <div className={className}>
-      <button className={buttonClass} onClick={onClick}>
+      <button className={buttonClass} onClick={onClick} {...delegated}>
         {leftIcon && <span className={styles.leftIcon}>{leftIcon}</span>}
         {text}
         {rightIcon && <span className={styles.RightIcon}>{rightIcon}</span>}
