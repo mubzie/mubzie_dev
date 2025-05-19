@@ -63,6 +63,7 @@ textarea:focus {
   background-color: var(--text-color-white-200);
   color: var(--text-color-black-300);
   border-radius: var(--border-radius-sm);
+  cursor: not-allowed;
 }
 
 .active {
