@@ -21,6 +21,10 @@
   color: var(--text-color-black-300);
 }
 
+.primary:hover {
+  background-color: var(--bg-color-gray-200);
+}
+
 .secondary {
   background-color: var(--text-color-black-300);
   color: var(--text-color-white-300);
