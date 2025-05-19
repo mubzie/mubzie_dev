@@ -14,8 +14,8 @@ function Contact() {
         <ContactLink />
       </div>
 
-      <div className={styles.footerText}>
-        <p>
+      <div className={styles.footer}>
+        <p className={styles.footerText}>
           Designed and developed with sweat by: <span>Mubarak Rabiu</span>
         </p>
       </div>

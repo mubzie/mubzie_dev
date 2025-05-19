@@ -20,7 +20,7 @@ textarea {
 }
 
 textarea:focus {
-  outline: var(--text-color-black-200) solid 2px;
+  outline: var(--text-color-black-300) solid 2px;
 }
 
 .buttonContainer {

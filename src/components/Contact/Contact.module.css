@@ -19,9 +19,23 @@
   margin-top: var(--spacing-5xl);
 }
 
-.footerText {
+.footer {
   margin-top: var(--spacing-3xl);
   margin-bottom: var(--spacing-5xl);
+}
+
+.footer p {
+  margin-top: 0;
+}
+
+.footerText {
+  font-size: var(--base-font-size);
+  font-weight: 600;
+  color: var(--text-color-black-100);
+}
+
+.footerText span {
+  color: var(--text-color-white-300);
 }
 
 @media (max-width: 500px) {
@@ -32,10 +46,10 @@
   }
 
   .contactLinkContainer {
-    margin-top: var(--spacing-3xl);
+    margin-top: var(--spacing-2xl);
   }
 
-  .footerText {
+  .footer {
     margin-top: var(--spacing-2xl);
     margin-bottom: var(--spacing-3xl);
     text-align: center;
