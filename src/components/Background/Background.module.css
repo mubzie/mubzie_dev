@@ -17,6 +17,8 @@
   line-height: 1.6;
   font-weight: 500;
   color: var(--text-color-white-200);
+
+  overflow-wrap: break-word;
 }
 
 /* media quiries*/

@@ -7,18 +7,12 @@ function Background() {
     <div className={styles.container}>
       <h3 className={styles.title}>Background</h3>
       <p className={styles.text}>
-        I am a product designer with a multidisciplinary background in graphic
-        design, brand identity, and digital experiences. My work is driven by a
-        passion for solving real-world problems through innovative,
-        user-centered design solutions. This portfolio highlights a selection of
-        my projects that demonstrate my approach to creative problem-solving and
-        design thinking. While some of my work remains confidential due to
-        client agreements, the examples here reflect my ability to transform
-        complex challenges into elegant, functional designs. I thrive in
-        collaborative environments with forward-thinking teams that value
-        creativity, strategy, and execution. My design philosophy balances
-        creative vision with practical implementation, ensuring that every
-        solution is both impactful and achievable.
+        I’m a product designer with expertise in graphic design, branding, and
+        digital experiences. Passionate about solving real-world problems
+        through user-centered design, my work blends creativity with
+        practicality. This portfolio showcases my problem-solving
+        approach—turning challenges into elegant solutions. I love collaborating
+        with teams that value innovation and execution.
       </p>
       <Button text="View my resume" rightIcon={<ChevronRight />} />
     </div>

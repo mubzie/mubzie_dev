@@ -1,5 +1,5 @@
 import ExperienceCard from "../Card/Experience/ExperienceCard";
-import cardImage from "../../assets/work-card1.png";
+import cardImage from "../../assets/curaboard.png";
 import styles from "./Experience.module.css";
 
 const experienceData = [
