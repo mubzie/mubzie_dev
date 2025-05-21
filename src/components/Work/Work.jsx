@@ -11,21 +11,25 @@ import styles from "./Work.module.css";
 
 const workData = [
   {
+    id: crypto.randomUUID(),
     src: image4,
     icon: <Paintbrush />,
     title: "UI exploration",
   },
   {
+    id: crypto.randomUUID(),
     src: image3,
     icon: <Skull />,
     title: "Web3 UI exploration",
   },
   {
+    id: crypto.randomUUID(),
     src: image2,
     icon: <PenNib />,
     title: "Illustration",
   },
   {
+    id: crypto.randomUUID(),
     src: image,
     icon: <PenLine />,
     title: "Case study design",
@@ -46,7 +50,8 @@ function Work() {
       <div className={styles.workCards}>
         {workData.map((work) => (
           <WorkCard
-            key={work.title}
+            id={work.id}
+            key={work.id}
             src={work.src}
             icon={work.icon}
             text={work.title}
