@@ -54,7 +54,7 @@ function Work() {
             key={work.id}
             src={work.src}
             icon={work.icon}
-            text={work.title}
+            title={work.title}
           />
         ))}
       </div>

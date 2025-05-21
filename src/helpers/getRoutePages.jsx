@@ -1,5 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-
 import App from "../App";
 import WorkDetailsPage from "../pages/WorkDetailsPage";
 
@@ -9,7 +8,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/work/:id",
+    path: "/work/:title/:id",
     element: <WorkDetailsPage />,
   },
 ]);
