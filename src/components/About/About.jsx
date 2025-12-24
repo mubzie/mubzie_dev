@@ -1,9 +1,4 @@
 import styles from "./About.module.css";
-import html from "/src/assets/icon-html.png";
-import css from "/src/assets/icon-css.png";
-import javascript from "/src/assets/icon-javascript.png";
-import react from "/src/assets/icon-react.png";
-import git from "/src/assets/icon-git.png";
 
 const About = () => {
   return (
@@ -22,7 +17,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className={styles.skill}>
+      {/* <section className={styles.skill}>
         <div className={styles.skill}>Skill</div>
         <div className={styles.container}>
           <div className={styles.html}>
@@ -56,7 +51,7 @@ const About = () => {
             </span>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

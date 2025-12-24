@@ -1,9 +1,3 @@
-import styles from "./header.module.css";
-import icon from "/src/assets/icon-mode.png";
-import twitter from "/src/assets/icon-twitter.png";
-import github from "/src/assets/icon-github.png";
-import fire from "/src/assets/icon-fire.png";
-
 const Header = () => {
   return (
     <>
@@ -23,7 +17,7 @@ const Header = () => {
         </div>
       </nav> */}
 
-      <div className={styles.landingPage}>
+      {/* <div className={styles.landingPage}>
         <div className={styles.name}>Hi, I&apos;m Mubarak 👋🏿</div>
         <div className={styles.title}>A Frontend Developer</div>
         <div className={styles.iconContainer}>
@@ -42,7 +36,7 @@ const Header = () => {
             </span>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

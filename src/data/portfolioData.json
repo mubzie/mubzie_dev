@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "UI Exploration",
+      "slug": "ui-exploration",
+      "displayOrder": 1
+    },
+    {
+      "id": 2,
+      "name": "Web3 exploration",
+      "slug": "web3",
+      "displayOrder": 2
+    },
+    {
+      "id": 3,
+      "name": "Illustration design",
+      "slug": "illustration",
+      "displayOrder": 3
+    },
+    {
+      "id": 4,
+      "name": "Case Study",
+      "slug": "case-study",
+      "displayOrder": 4
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Digital Portrait Series",
+      "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
+      "createdDate": "2024-03-15",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/images/illustration/digital-portraits/cover.jpg",
+          "imageDescription": "Main portrait featuring vibrant colors and geometric elements",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/images/illustration/digital-portraits/detail-1.jpg",
+          "imageDescription": "Close-up detail showing texture and brushwork",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/images/ui-exploration/dashboard/overview.jpg",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/images/ui-exploration/dashboard/mobile.jpg",
+          "imageDescription": "Mobile responsive version of the dashboard",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/images/ui-exploration/dashboard/overview.jpg",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/images/ui-exploration/dashboard/mobile.jpg",
+          "imageDescription": "Mobile responsive version of the dashboard",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "categoryId": 4,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/images/ui-exploration/dashboard/overview.jpg",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/images/ui-exploration/dashboard/mobile.jpg",
+          "imageDescription": "Mobile responsive version of the dashboard",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    }
+  ]
+}
