@@ -1,0 +1,75 @@
+:root {
+  /* COLOR - Neutral  */
+
+  --color-neutral-50: hsl(0, 0%, 98%);
+  --color-neutral-100: hsl(0, 0%, 96%);
+  --color-neutral-200: hsl(0, 0%, 90%);
+  --color-neutral-300: hsl(0, 0%, 83%);
+  --color-neutral-400: hsl(0, 0%, 64%);
+  --color-neutral-500: hsl(0, 0%, 45%);
+  --color-neutral-600: hsl(0, 0%, 32%);
+  --color-neutral-700: hsl(0, 0%, 25%);
+  --color-neutral-800: hsl(0, 0%, 15%);
+  --color-neutral-900: hsl(0, 0%, 9%);
+  --color-neutral-950: hsl(0, 0%, 4%);
+
+  /* Font families */
+
+  --font-primary: "Open Runde", sans-serif;
+
+  /* Font sizes */
+
+  --font-size-xs: 0.75rem;
+  --font-size-xsL: 0.8125rem;
+  --font-size-sm: 0.875rem;
+  --font-size-smL: 0.9375rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.0625rem;
+  --font-size-xl: 2rem;
+  --font-size-2xl: 2.5rem;
+
+  /* Font weight */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line height */
+
+  --line-height-tight: 1.25;
+  --line-height-regular: 1.5;
+  --line-height-relaxed: 1.75;
+  --line-height-loosed: 2;
+
+  /* Spacing */
+
+  --spacing-0: 0;
+  --spacing-1: 4px;
+  --spacing-2: 6px;
+  --spacing-3: 8px;
+  --spacing-4: 12px;
+  --spacing-5: 16px;
+  --spacing-6: 24px;
+  --spacing-7: 32px;
+  --spacing-8: 40px;
+  --spacing-9: 48px;
+  --spacing-10: 56px;
+  --spacing-11: 64px;
+  --spacing-12: 72px;
+  --spacing-13: 80px;
+  --spacing-14: 88px;
+  --spacing-15: 96px;
+  --spacing-16: 128px;
+
+  /* Border radius */
+
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-base: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-full: 9999px;
+}

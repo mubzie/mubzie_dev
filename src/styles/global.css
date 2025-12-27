@@ -1,0 +1,12 @@
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-regular);
+  color: var(--color-neutral-900);
+  background-color: var(--color-neutral-50);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
