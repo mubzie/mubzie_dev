@@ -1,0 +1,28 @@
+.btn {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: var(--radius-full);
+}
+
+.btnPrimary {
+  background-color: var(--color-neutral-950);
+  color: var(--color-neutral-50);
+}
+
+.btnDefault {
+  max-width: 10.875rem;
+  padding: var(--spacing-3) var(--spacing-4);
+  font-size: var(--font-size-smL);
+}
+
+.btnIcon {
+}
+
+button > span {
+  padding: 0px 0.25rem;
+}
