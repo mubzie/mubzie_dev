@@ -4,7 +4,7 @@ import styles from "./Button.module.css";
 function Button({
   children,
   icon,
-  size = "default",
+  size = "big",
   variant = "primary",
   onClick,
 }) {
@@ -16,9 +16,15 @@ function Button({
   }[variant];
 
   const btnSize = {
-    default: styles.btnDefault,
+    big: styles.btnBig,
     small: styles.btnSmall,
   }[size];
+
+  const iconSize = {
+    default: 24,
+    medium: 20,
+    small: 16,
+  };
 
   return (
     <button
@@ -26,7 +32,7 @@ function Button({
       className={`${styles.btn} ${btnVariant} ${btnSize}`}
     >
       <span>{children}</span>
-      {Icon && <Icon className={`${styles.btnIcon}`} />}
+      {Icon && <Icon size={iconSize[size]} />}
     </button>
   );
 }

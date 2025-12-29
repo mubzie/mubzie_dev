@@ -1,13 +1,12 @@
 .btn {
-  font-family: var(--font-primary);
-  font-weight: var(--font-weight-semibold);
-  line-height: var(--line-height-tight);
-  letter-spacing: var(--letter-spacing-tight);
-
   display: flex;
   align-items: center;
   border: none;
   border-radius: var(--radius-full);
+
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
 }
 
 .btnPrimary {
@@ -15,13 +14,27 @@
   color: var(--color-neutral-50);
 }
 
-.btnDefault {
+.btnSecondary {
+  background-color: var(--color-neutral-100);
+  color: var(--color-neutral-900);
+}
+
+.btnBig {
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-tight);
+
   max-width: 10.875rem;
   padding: var(--spacing-3) var(--spacing-4);
   font-size: var(--font-size-smL);
 }
 
-.btnIcon {
+.btnSmall {
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+
+  max-width: 9.375rem;
+  padding: var(--spacing-3) var(--spacing-4);
+  font-size: var(--font-size-xsL);
 }
 
 button > span {
