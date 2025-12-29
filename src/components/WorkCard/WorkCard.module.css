@@ -1,0 +1,36 @@
+.WorkCardWrapper {
+  background-image: url("../../assets/Images/img1.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  max-width: 249px;
+  height: 183px;
+  border-radius: var(--radius-lg);
+}
+
+.textWrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+  padding: var(--spacing-5);
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  background-color: var(--color-neutral-200);
+  color: var(--color-white);
+
+  /* cosmetics */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  mask: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 100%);
+  -webkit-mask: linear-gradient(
+    to top,
+    rgb(255, 255, 255) 50%,
+    transparent 100%
+  );
+  background-color: rgba(65, 65, 65, 0.4);
+}

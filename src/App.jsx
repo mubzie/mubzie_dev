@@ -1,23 +1,18 @@
 // import Header from "./components/header/header";
 import About from "./components/About/About";
 import Project from "./components/Project/Project";
-import { ChevronRight } from "lucide-react";
+// import { ChevronRight } from "lucide-react";
+import { SplinePointer } from "lucide-react";
 
-import Button from "./components/Button/Button";
+// import Button from "./components/Button/Button";
+import WorkCard from "./components/WorkCard/WorkCard";
+
 function App() {
   return (
     <>
       {/* <Header /> */}
       <About />
-      <Button variant="primary" icon={ChevronRight}>
-        View my resume
-      </Button>
-      <Button variant="secondary" size="small" icon={ChevronRight}>
-        instantfind.me
-      </Button>
-      <Button variant="secondary" size="big" icon={ChevronRight}>
-        instantfind.me
-      </Button>
+      <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
       <Project />
     </>
   );
