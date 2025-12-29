@@ -42,6 +42,12 @@
   --line-height-relaxed: 1.75;
   --line-height-loosed: 2;
 
+  /* Letter spacing */
+
+  --letter-spacing-tight: -0.01rem;
+  --letter-spacing-normal: -0.0125rem;
+  --letter-spacing-wide: -0.04rem;
+
   /* Spacing */
 
   --spacing-0: 0;

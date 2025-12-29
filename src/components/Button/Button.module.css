@@ -2,7 +2,8 @@
   font-family: var(--font-primary);
   font-weight: var(--font-weight-semibold);
   line-height: var(--line-height-tight);
-  
+  letter-spacing: var(--letter-spacing-tight);
+
   display: flex;
   align-items: center;
   border: none;
