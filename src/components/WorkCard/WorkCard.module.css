@@ -26,11 +26,12 @@
   /* cosmetics */
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  mask: linear-gradient(to top, rgb(255, 255, 255) 50%, transparent 100%);
+  mask: linear-gradient(to top, rgb(255, 255, 255) 45%, transparent 100%);
   -webkit-mask: linear-gradient(
     to top,
-    rgb(255, 255, 255) 50%,
+    rgb(255, 255, 255) 45%,
     transparent 100%
   );
-  background-color: rgba(65, 65, 65, 0.4);
+  background-color: rgb(125 112 112 / 40%);
+  background-color: rgb(186 186 186 / 40%);
 }
