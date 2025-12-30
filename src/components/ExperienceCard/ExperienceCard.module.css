@@ -1,0 +1,51 @@
+.experienceCardWrapper {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 508px;
+
+  color: var(--color-neutral-500);
+
+  border-bottom: 1px solid var(--color-neutral-200);
+}
+
+.container img {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-base);
+}
+
+.container {
+  display: flex;
+  gap: var(--spacing-5);
+}
+
+.textWrapper {
+  flex: 1;
+}
+
+.textContainer {
+  margin-top: 0.0625rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company {
+  color: var(--color-neutral-900);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-relaxed);
+}
+
+.designation,
+.duration {
+  font-size: var(--font-size-smL);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-tight);
+}
+
+.description {
+  margin: var(--spacing-5) 0 var(--spacing-6);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+}
