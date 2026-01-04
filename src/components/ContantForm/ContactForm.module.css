@@ -1,0 +1,79 @@
+h3 {
+  font-family: var(--font-primary);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.headerContainer {
+  max-width: 272px;
+  margin: 0 auto;
+}
+
+.formWrapper {
+  max-width: 508px;
+  padding: 32px 16px 16px 16px;
+  border-radius: 8px;
+
+  background-color: var(--color-neutral-800);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.formContainter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+
+  margin-top: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid var(--color-neutral-600);
+  outline: none;
+  background-color: transparent;
+  color: var(--color-neutral-50);
+
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 28px;
+}
+
+textarea {
+  resize: none;
+  min-height: 112px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-bottom: 1px solid var(--color-neutral-50);
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-neutral-600);
+}
+
+.formBtn {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+
+  font-family: var(--font-primary);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--font-weight-medium);
+
+  background-color: var(--color-white);
+  color: var(--color-black);
+
+  margin-top: 16px;
+}
