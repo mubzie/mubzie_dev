@@ -1,0 +1,20 @@
+.experienceTitle {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.experienceDescription {
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--color-neutral-500);
+
+  margin-top: 16px;
+}
+
+.experienceCardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  margin-top: 32px;
+}
