@@ -1,4 +1,4 @@
-import Button from "../components/Button/Button";
+import Button from "../../components/Button/Button";
 import { ChevronRight } from "lucide-react";
 import styles from "./MainLockup.module.css";
 

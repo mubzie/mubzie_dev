@@ -6,7 +6,11 @@
   flex-direction: column;
   justify-content: flex-end;
 
-  max-width: 249px;
+  flex: 1 1 200px;
+
+  width: 100%;
+  /* max-width: 249px; commented out so that I could properly wrap card. 
+  width: 100% fix issue because it take up the available space */
   height: 183px;
   border-radius: var(--radius-lg);
 }

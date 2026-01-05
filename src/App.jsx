@@ -7,12 +7,14 @@ import styles from "./App.module.css";
 import WorkCard from "./components/WorkCard/WorkCard";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import ContantForm from "./components/ContactForm/ContactForm";
-import MainLockup from "./sections/MainLockup";
+import MainLockup from "./sections/MainLockup/MainLockup";
+import WorkSection from "./sections/MainLockup/WorkSection/WorkSection";
 
 function App() {
   return (
     <div className={styles.appWrapper}>
       <MainLockup />
+      <WorkSection />
       {/* <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
       <ExperienceCard
         src={img}
