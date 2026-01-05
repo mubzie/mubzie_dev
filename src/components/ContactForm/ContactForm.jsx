@@ -2,7 +2,7 @@ import styles from "./ContactForm.module.css";
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-function ContantForm() {
+function ContactForm() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -67,4 +67,4 @@ function ContantForm() {
   );
 }
 
-export default ContantForm;
+export default ContactForm;
