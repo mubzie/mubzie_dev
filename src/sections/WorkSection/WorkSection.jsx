@@ -1,5 +1,5 @@
 import styles from "./WorkSection.module.css";
-import WorkCard from "../../../components/WorkCard/WorkCard";
+import WorkCard from "../../components/WorkCard/WorkCard";
 import { SplinePointer } from "lucide-react";
 
 function WorkSection() {

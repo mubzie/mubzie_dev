@@ -8,7 +8,7 @@ import WorkCard from "./components/WorkCard/WorkCard";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import ContantForm from "./components/ContactForm/ContactForm";
 import MainLockup from "./sections/MainLockup/MainLockup";
-import WorkSection from "./sections/MainLockup/WorkSection/WorkSection";
+import WorkSection from "./sections/WorkSection/WorkSection";
 
 function App() {
   return (
