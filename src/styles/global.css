@@ -5,6 +5,8 @@ body {
   color: var(--color-neutral-900);
   background-color: var(--color-neutral-50);
 
-  max-width: 508px;
+  max-width: 556px;
   margin: 0 auto;
+  padding-left: var(--spacing-6);
+  padding-right: var(--spacing-6);
 }

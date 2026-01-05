@@ -7,11 +7,13 @@ import styles from "./App.module.css";
 import WorkCard from "./components/WorkCard/WorkCard";
 import ExperienceCard from "./components/ExperienceCard/ExperienceCard";
 import ContantForm from "./components/ContactForm/ContactForm";
+import MainLockup from "./sections/MainLockup";
 
 function App() {
   return (
     <div className={styles.appWrapper}>
-      <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
+      <MainLockup />
+      {/* <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
       <ExperienceCard
         src={img}
         alt="alt"
@@ -20,7 +22,7 @@ function App() {
         duration="Mar 2025 - Present"
         description="Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency."
       />
-      <ContantForm />
+      <ContantForm /> */}
     </div>
   );
 }
