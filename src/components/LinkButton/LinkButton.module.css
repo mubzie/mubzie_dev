@@ -1,0 +1,27 @@
+.linkBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  border: none;
+
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-regular);
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+
+  color: var(--color-neutral-500);
+  max-width: fit-content;
+}
+
+.btnMedium {
+  font-size: var(--font-size-smL);
+  line-height: var(--line-height-regular);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+.btnSmall {
+  font-size: var(--font-size-xsL);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
