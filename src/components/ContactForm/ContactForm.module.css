@@ -72,8 +72,17 @@ textarea::placeholder {
   line-height: 28px;
   font-weight: var(--font-weight-medium);
 
+  margin-top: 16px;
+}
+
+.isEmpty {
+  background-color: var(--color-neutral-500);
+  color: var(--color-neutral-800);
+  cursor: not-allowed;
+}
+
+.isActive {
   background-color: var(--color-white);
   color: var(--color-black);
-
-  margin-top: 16px;
+  cursor: pointer;
 }

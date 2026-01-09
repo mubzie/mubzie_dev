@@ -7,6 +7,8 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const isEmpty = !username | !email | !message;
+
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -61,7 +63,14 @@ function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Message"
         ></textarea>
-        <button className={styles.formBtn}>Send message</button>
+        <button
+          disabled={isEmpty}
+          className={`${styles.formBtn} ${
+            isEmpty ? styles.isEmpty : styles.isActive
+          }`}
+        >
+          Send message
+        </button>
       </form>
     </div>
   );
