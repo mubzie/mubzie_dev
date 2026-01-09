@@ -45,21 +45,21 @@ function ContactForm() {
           name="name"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="enter your name"
+          placeholder="Name"
         />
         <input
           type="email"
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="enter your email"
+          placeholder="E-mail address"
         />
         <textarea
           name="message"
           id="message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          placeholder="Type your message here"
+          placeholder="Message"
         ></textarea>
         <button className={styles.formBtn}>Send message</button>
       </form>
