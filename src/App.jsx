@@ -1,11 +1,10 @@
 import styles from "./App.module.css";
-import { SquareArrowOutUpRight } from "lucide-react";
 
 import ContactForm from "./components/ContactForm/ContactForm";
 import MainLockup from "./sections/MainLockup/MainLockup";
 import WorkSection from "./sections/WorkSection/WorkSection";
 import ExperienceSection from "./sections/ExperienceSection/ExperienceSection";
-import LinkButton from "./components/LinkButton/LinkButton";
+import Footer from "./sections/Footer/Footer";
 
 function App() {
   return (
@@ -14,9 +13,7 @@ function App() {
       <WorkSection />
       <ExperienceSection />
       <ContactForm />
-      <LinkButton size="small" icon={SquareArrowOutUpRight}>
-        Github
-      </LinkButton>
+      <Footer />
     </div>
   );
 }

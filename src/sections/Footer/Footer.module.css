@@ -1,0 +1,12 @@
+.footerWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: var(--spacing-5);
+  margin-bottom: var(--spacing-12);
+}
+
+.linkWrapper {
+  display: flex;
+  gap: var(--spacing-3);
+}

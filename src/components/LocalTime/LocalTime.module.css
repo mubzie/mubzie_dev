@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-4);
+
+  font-size: var(--font-size-xsL);
+  line-height: var(--line-height-tight);
+  font-weight: var(--font-weight-medium);
+
+  max-width: fit-content;
+}
+
+.copyright {
+  color: var(--color-neutral-500);
+}
+
+.time {
+  color: var(--color-neutral-900);
+}
+
+.divider {
+  content: "";
+  width: var(--spacing-3);
+  height: var(--spacing-3);
+  background-color: var(--color-neutral-300);
+}
