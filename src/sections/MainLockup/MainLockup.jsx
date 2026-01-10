@@ -3,6 +3,22 @@ import { ChevronRight } from "lucide-react";
 import styles from "./MainLockup.module.css";
 
 function MainLockup() {
+  const resume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1GUd-awDFRmUn-MVsblINioVztJt-CEne/view?usp=sharing",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
+  const instantfind = () => {
+    window.open(
+      "https://instantfind.me/mubarak",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <div>
       <h3 className={styles.title}>Mubarak Rabiu - Product designer.</h3>
@@ -15,10 +31,10 @@ function MainLockup() {
         love collaborating with teams that value innovation and execution.
       </p>
       <div className={styles.btnContainer}>
-        <Button variant="primary" icon={ChevronRight}>
+        <Button onClick={resume} variant="primary" icon={ChevronRight}>
           View my resume
         </Button>
-        <Button variant="secondary" icon={ChevronRight}>
+        <Button onClick={instantfind} variant="secondary" icon={ChevronRight}>
           instantfind.me
         </Button>
       </div>
