@@ -26,13 +26,14 @@
   z-index: 0;
 }
 
-.cardBg:hover {
+.WorkCardWrapper:hover .cardBg {
   cursor: pointer;
 
   transform: scale(1.1);
 }
 
 .textWrapper {
+  cursor: pointer;
   display: flex;
   align-items: center;
   gap: var(--spacing-3);
