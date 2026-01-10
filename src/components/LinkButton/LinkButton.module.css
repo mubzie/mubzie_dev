@@ -14,6 +14,12 @@
   max-width: fit-content;
 }
 
+.linkBtn:hover {
+  color: var(--color-neutral-900);
+
+  transition: color 0.3s ease;
+}
+
 .btnMedium {
   font-size: var(--font-size-smL);
   line-height: var(--line-height-regular);
