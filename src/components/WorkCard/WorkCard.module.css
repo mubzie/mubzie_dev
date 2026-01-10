@@ -1,11 +1,10 @@
 .WorkCardWrapper {
-  background-image: url("../../assets/Images/img1.png");
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-
   flex: 1 1 200px;
 
   width: 100%;
@@ -13,6 +12,24 @@
   width: 100% fix issue because it take up the available space */
   height: 183px;
   border-radius: var(--radius-lg);
+}
+
+.cardBg {
+  position: absolute;
+  inset: 0;
+
+  background-image: url("../../assets/Images/img1.png");
+  background-size: cover;
+  background-position: center;
+
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.cardBg:hover {
+  cursor: pointer;
+
+  transform: scale(1.1);
 }
 
 .textWrapper {

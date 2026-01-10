@@ -6,8 +6,8 @@ function WorkCard({ icon, cardTitle, onClick }) {
 
   return (
     <div onClick={onClick} className={styles.WorkCardWrapper}>
+      <div className={styles.cardBg} />
       <div className={styles.textWrapper}>
-        <div className={styles.backdrop}></div>
         <span>{Icon && <Icon />}</span>
         <p>{cardTitle}</p>
       </div>
