@@ -16,7 +16,7 @@ function WorkCard({ icon, cardTitle, onClick, img, alt }) {
 }
 
 WorkCard.propTypes = {
-  icon: PropTypes.element,
+  icon: PropTypes.string,
   cardTitle: PropTypes.string,
   onClick: PropTypes.func,
   img: PropTypes.string,

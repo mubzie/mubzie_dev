@@ -38,7 +38,7 @@ function Button({
 }
 
 Button.propTypes = {
-  children: PropTypes.element,
+  children: PropTypes.string,
   icon: PropTypes.element,
   size: PropTypes.string,
   variant: PropTypes.string,
