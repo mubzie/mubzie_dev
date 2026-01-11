@@ -1,8 +1,14 @@
 import styles from "./WorkSection.module.css";
 import WorkCard from "../../components/WorkCard/WorkCard";
 import { SplinePointer } from "lucide-react";
+import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function WorkSection() {
+  const { getAllCategories } = usePortfolioData();
+
+  const categories = getAllCategories();
+  console.log(categories);
+
   return (
     <>
       <div>
@@ -12,10 +18,14 @@ function WorkSection() {
           design, brand identity, and digital experiences.
         </p>
         <div className={styles.cardWrapper}>
-          <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
-          <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
-          <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
-          <WorkCard cardTitle="UI exploration" icon={SplinePointer} />
+          {categories.map((category) => (
+            <WorkCard
+              key={category.id}
+              cardTitle={category.name}
+              img={category.image}
+              icon={SplinePointer}
+            />
+          ))}
         </div>
       </div>
     </>

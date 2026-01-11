@@ -4,25 +4,29 @@
       "id": 1,
       "name": "UI Exploration",
       "slug": "ui-exploration",
-      "displayOrder": 1
+      "displayOrder": 1,
+      "image": "/images/img1.png"
     },
     {
       "id": 2,
       "name": "Web3 exploration",
       "slug": "web3",
-      "displayOrder": 2
+      "displayOrder": 2,
+      "image": "/images/img1.png"
     },
     {
       "id": 3,
       "name": "Illustration design",
       "slug": "illustration",
-      "displayOrder": 3
+      "displayOrder": 3,
+      "image": "/images/img1.png"
     },
     {
       "id": 4,
       "name": "Case Study",
       "slug": "case-study",
-      "displayOrder": 4
+      "displayOrder": 4,
+      "image": "/images/img1.png"
     }
   ],
   "projects": [
