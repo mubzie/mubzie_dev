@@ -2,13 +2,13 @@ import PropTypes from "prop-types";
 import styles from "./WorkCard.module.css";
 
 function WorkCard({ icon, cardTitle, onClick, img, alt }) {
-  const Icon = icon;
+  // const Icon = icon;
 
   return (
     <div onClick={onClick} className={styles.WorkCardWrapper}>
       <img src={img} alt={alt} className={styles.cardBg} />
       <div className={styles.textWrapper}>
-        <span>{Icon && <Icon />}</span>
+        <img src={icon} alt={alt} className={styles.icon} />
         <p>{cardTitle}</p>
       </div>
     </div>

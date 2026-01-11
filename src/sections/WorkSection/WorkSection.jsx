@@ -1,6 +1,9 @@
 import styles from "./WorkSection.module.css";
 import WorkCard from "../../components/WorkCard/WorkCard";
 import { SplinePointer } from "lucide-react";
+import { Skull } from "lucide-react";
+import { PenTool } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function WorkSection() {
@@ -23,7 +26,7 @@ function WorkSection() {
               cardTitle={category.name}
               img={category.image}
               alt={category.name}
-              icon={SplinePointer}
+              icon={category.icon}
             />
           ))}
         </div>
