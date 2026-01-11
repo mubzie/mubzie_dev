@@ -1,7 +1,9 @@
 .wrapper {
+  position: relative;
+
   display: flex;
   align-items: center;
-  gap: var(--spacing-4);
+  gap: var(--spacing-3);
 
   font-size: var(--font-size-xsL);
   line-height: var(--line-height-tight);
@@ -11,7 +13,15 @@
 }
 
 .copyright {
-  color: var(--color-neutral-500);
+  position: absolute;
+  top: 25px;
+  color: var(--color-neutral-400);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.location {
+  text-transform: uppercase;
 }
 
 .time {
