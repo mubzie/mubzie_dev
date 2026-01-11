@@ -14,11 +14,16 @@
   border-radius: var(--radius-lg);
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .cardBg {
   position: absolute;
   inset: 0;
 
-  background-image: url("../../assets/Images/img1.png");
+  /* background-image: url("../../assets/Images/img1.png"); */
   background-size: cover;
   background-position: center;
 

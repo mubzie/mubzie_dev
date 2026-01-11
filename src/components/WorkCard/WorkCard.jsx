@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
 import styles from "./WorkCard.module.css";
 
-function WorkCard({ icon, cardTitle, onClick, img }) {
+function WorkCard({ icon, cardTitle, onClick, img, alt }) {
   const Icon = icon;
 
   return (
     <div onClick={onClick} className={styles.WorkCardWrapper}>
-      <img src={img} className={styles.cardBg} />
+      <img src={img} alt={alt} className={styles.cardBg} />
       <div className={styles.textWrapper}>
         <span>{Icon && <Icon />}</span>
         <p>{cardTitle}</p>
@@ -20,6 +20,7 @@ WorkCard.propTypes = {
   cardTitle: PropTypes.string,
   onClick: PropTypes.func,
   img: PropTypes.string,
+  alt: PropTypes.string,
 };
 
 export default WorkCard;

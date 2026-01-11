@@ -1,6 +1,6 @@
 import styles from "./ExperienceSection.module.css";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
-import img from "../../assets/Images/img1.png";
+import img from "../../../public/Images/img1.png";
 
 function ExperienceSection() {
   return (

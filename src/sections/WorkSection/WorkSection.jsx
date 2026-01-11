@@ -7,7 +7,6 @@ function WorkSection() {
   const { getAllCategories } = usePortfolioData();
 
   const categories = getAllCategories();
-  console.log(categories);
 
   return (
     <>
@@ -23,6 +22,7 @@ function WorkSection() {
               key={category.id}
               cardTitle={category.name}
               img={category.image}
+              alt={category.name}
               icon={SplinePointer}
             />
           ))}
