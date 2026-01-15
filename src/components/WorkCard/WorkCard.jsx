@@ -10,7 +10,7 @@ function WorkCard({ icon, cardTitle, onClick, img, alt, slug }) {
 
   return (
     <Link
-      to={`work/${slug}`}
+      to={`featured-work/${slug}`}
       onClick={onClick}
       className={styles.WorkCardWrapper}
     >

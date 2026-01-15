@@ -8,7 +8,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/work/:slug",
+    path: "/featured-work/:slug",
     element: <DetailsPage />,
   },
 ]);
