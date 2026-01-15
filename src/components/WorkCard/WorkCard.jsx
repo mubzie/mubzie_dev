@@ -4,12 +4,9 @@ import { Link } from "react-router-dom";
 import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function WorkCard({ icon, cardTitle, onClick, img, alt, slug }) {
-  // const { slug } = useParams();
-
-  // console.log("slug:", slug);
   const { getAllCategories } = usePortfolioData();
 
-  const category = getAllCategories();
+  // const category = getAllCategories();
 
   return (
     <Link to={`work/${slug}`}>
