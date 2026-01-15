@@ -9,13 +9,15 @@ function WorkCard({ icon, cardTitle, onClick, img, alt, slug }) {
   // const category = getAllCategories();
 
   return (
-    <Link to={`work/${slug}`}>
-      <div onClick={onClick} className={styles.WorkCardWrapper}>
-        <img src={img} alt={alt} className={styles.cardBg} />
-        <div className={styles.textWrapper}>
-          <img src={icon} alt={alt} className={styles.icon} />
-          <p>{cardTitle}</p>
-        </div>
+    <Link
+      to={`work/${slug}`}
+      onClick={onClick}
+      className={styles.WorkCardWrapper}
+    >
+      <img src={img} alt={alt} className={styles.cardBg} />
+      <div className={styles.textWrapper}>
+        <img src={icon} alt={alt} className={styles.icon} />
+        <p>{cardTitle}</p>
       </div>
     </Link>
   );
