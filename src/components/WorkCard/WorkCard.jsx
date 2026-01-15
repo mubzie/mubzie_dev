@@ -1,17 +1,26 @@
 import PropTypes from "prop-types";
 import styles from "./WorkCard.module.css";
+import { Link } from "react-router-dom";
+import { usePortfolioData } from "../../hooks/usePortfolioData";
 
-function WorkCard({ icon, cardTitle, onClick, img, alt }) {
-  // const Icon = icon;
+function WorkCard({ icon, cardTitle, onClick, img, alt, slug }) {
+  // const { slug } = useParams();
+
+  // console.log("slug:", slug);
+  const { getAllCategories } = usePortfolioData();
+
+  const category = getAllCategories();
 
   return (
-    <div onClick={onClick} className={styles.WorkCardWrapper}>
-      <img src={img} alt={alt} className={styles.cardBg} />
-      <div className={styles.textWrapper}>
-        <img src={icon} alt={alt} className={styles.icon} />
-        <p>{cardTitle}</p>
+    <Link to={`work/${slug}`}>
+      <div onClick={onClick} className={styles.WorkCardWrapper}>
+        <img src={img} alt={alt} className={styles.cardBg} />
+        <div className={styles.textWrapper}>
+          <img src={icon} alt={alt} className={styles.icon} />
+          <p>{cardTitle}</p>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -21,6 +30,7 @@ WorkCard.propTypes = {
   onClick: PropTypes.func,
   img: PropTypes.string,
   alt: PropTypes.string,
+  slug: PropTypes.string,
 };
 
 export default WorkCard;

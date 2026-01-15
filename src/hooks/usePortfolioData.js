@@ -4,7 +4,7 @@ import { useState } from "react";
 export const usePortfolioData = () => {
   const [data, setData] = useState(portfolioData);
 
-  console.log(data);
+  // console.log(data);
 
   const getAllCategories = () => {
     const categories = data.categories.sort(

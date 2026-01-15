@@ -23,6 +23,7 @@ function WorkSection() {
               img={category.image}
               alt={category.name}
               icon={category.icon}
+              slug={category.slug}
             />
           ))}
         </div>
