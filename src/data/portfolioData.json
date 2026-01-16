@@ -46,7 +46,32 @@
         {
           "id": 1,
           "imagePath": "../public/Images/img1.png",
-          "imageDescription": "Main portrait featuring vibrant colors and geometric elements",
+          "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "../public/Images/img1.png",
+          "imageDescription": "Close-up detail showing texture and brushwork",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "categoryId": 1,
+      "title": "Digital Portrait Series",
+      "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
+      "createdDate": "2024-03-15",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "../public/Images/img1.png",
+          "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
           "displayOrder": 1,
           "isCoverImage": true
         },

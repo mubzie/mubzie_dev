@@ -19,15 +19,21 @@ function DetailsPage() {
       <div className={styles.wrapper}>
         <h3 className={styles.header}>{categoryName}</h3>
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
-          aperiam adipisci? Quo voluptatibus magnam nobis, quae doloremque saepe
-          vero maxime.
+          I am a product designer with a multidisciplinary background in graphic
+          design, brand identity, and digital experiences. My work is driven by
+          a passion for solving real-world problems through innovative,
+          user-centered design solutions.
         </p>
 
         {projects.map((project) => (
           <div key={project.id} className={styles.imageContainer}>
-            <img src={project.images[0].imagePath} />
-            <img src={project.images[1].imagePath} />
+            {project.images.map((image) => (
+              <>
+                <img key={image.id} src={image.imagePath} />
+                <p>{image.imageDescription}</p>
+              </>
+            ))}
+            <span className={styles.decorator}>* * *</span>
           </div>
         ))}
       </div>
