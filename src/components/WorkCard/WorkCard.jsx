@@ -1,13 +1,8 @@
 import PropTypes from "prop-types";
 import styles from "./WorkCard.module.css";
 import { Link } from "react-router-dom";
-import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function WorkCard({ icon, cardTitle, onClick, img, alt, slug }) {
-  const { getAllCategories } = usePortfolioData();
-
-  // const category = getAllCategories();
-
   return (
     <Link
       to={`featured-work/${slug}`}
