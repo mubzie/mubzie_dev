@@ -45,14 +45,14 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/images/illustration/digital-portraits/cover.jpg",
+          "imagePath": "../public/Images/img1.png",
           "imageDescription": "Main portrait featuring vibrant colors and geometric elements",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/images/illustration/digital-portraits/detail-1.jpg",
+          "imagePath": "../public/Images/img1.png",
           "imageDescription": "Close-up detail showing texture and brushwork",
           "displayOrder": 2,
           "isCoverImage": false
