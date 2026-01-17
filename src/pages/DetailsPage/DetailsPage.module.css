@@ -1,4 +1,8 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
   margin-top: 88px;
 }
 
@@ -14,7 +18,8 @@
   /* font-weight: 500; */
   color: var(--color-neutral-500);
 
-  margin-top: 24px;
+  /* margin-top: 24px; */
+  margin-bottom: 16px;
 }
 
 .imageContainer {
@@ -24,7 +29,7 @@
   flex-direction: column;
   gap: 24px;
   /* height: 400px; */
-  margin-top: 64px;
+  /* margin-top: 64px; */
   color: var(--color-neutral-500);
 }
 
