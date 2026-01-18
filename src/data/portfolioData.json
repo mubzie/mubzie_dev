@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "UI Exploration",
+      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "slug": "ui-exploration",
       "displayOrder": 1,
       "image": "../public/Images/img1.png",
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "name": "Web3 exploration",
+      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "slug": "web3",
       "displayOrder": 2,
       "image": "../public/Images/img1.png",
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "name": "Illustration design",
+      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "slug": "illustration",
       "displayOrder": 3,
       "image": "../public/Images/img1.png",
@@ -28,6 +31,7 @@
       "id": 4,
       "name": "Case Study",
       "slug": "case-study",
+      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "displayOrder": 4,
       "image": "../public/Images/img1.png",
       "icon": "../public/Icons/book-open.svg"
@@ -52,8 +56,7 @@
         },
         {
           "id": 2,
-          "imagePath": "../public/Images/img1.png",
-         
+          "imagePath": "../public/Images/sample16.png",
           "displayOrder": 2,
           "isCoverImage": false
         }
@@ -70,14 +73,14 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "../public/Images/img1.png",
+          "imagePath": "../public/Images/sample16.png",
           "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "../public/Images/img1.png",
+          "imagePath": "../public/Images/sample16.png",
           "imageDescription": "Close-up detail showing texture and brushwork",
           "displayOrder": 2,
           "isCoverImage": false

@@ -2,6 +2,7 @@
   /* COLOR - Neutral  */
 
   --color-white: hsl(0, 0%, 100%);
+  --color-neutral-00: hsl(0deg 0% 0% / 40%);
   --color-neutral-50: hsl(0, 0%, 98%);
   --color-neutral-100: hsl(0, 0%, 96%);
   --color-neutral-200: hsl(0, 0%, 90%);
@@ -40,8 +41,8 @@
 
   /* Line height */
 
-  --line-height-tight: 1.2;
-  --line-height-regular: 1.23;
+  --line-height-tight: 1.23;
+  --line-height-regular: 1.5;
   --line-height-relaxed: 1.75;
   --line-height-loosed: 2;
 

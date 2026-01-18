@@ -9,21 +9,14 @@ function DetailsPage() {
   const category = getCategoryBySlug(slug);
   const projects = getProjectByCategory(slug);
 
-  console.log(category);
-  console.log(projects);
-
   const categoryName = category.name;
-  // const categoryDescription = category
+  const categoryDescription = category.description;
+
   return (
     <>
       <div className={styles.wrapper}>
         <h3 className={styles.header}>{categoryName}</h3>
-        <p className={styles.description}>
-          I am a product designer with a multidisciplinary background in graphic
-          design, brand identity, and digital experiences. My work is driven by
-          a passion for solving real-world problems through innovative,
-          user-centered design solutions.
-        </p>
+        <p className={styles.description}>{categoryDescription}</p>
 
         {projects.map((project) => (
           <div key={project.id} className={styles.imageContainer}>
