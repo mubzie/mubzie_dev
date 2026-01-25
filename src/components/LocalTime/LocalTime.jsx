@@ -18,14 +18,14 @@ function LocalTime() {
     });
   };
 
-  const currentYear = new Date().getFullYear();
+  // const currentYear = new Date().getFullYear();
   const location = "Lagos, NG";
 
   return (
     <div className={styles.wrapper}>
-      <span className={styles.copyright}>© {currentYear}</span>
+      {/* <span className={styles.copyright}>© {currentYear}</span> */}
+
       <span className={styles.location}>{location}</span>
-      <span className={styles.divider}></span>
       <span className={styles.time}>{formatTime(time)}</span>
     </div>
   );

@@ -21,11 +21,22 @@
 }
 
 .location {
-  text-transform: uppercase;
+  padding: 4px 12px;
+  background-color: var(--color-neutral-100);
+  color: var(--color-neutral-500);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-regular);
+
+  box-shadow:
+    0 2px 4px 0 hsl(0 0% 0% / 8%),
+    0 0 0 1px hsl(0 0% 0% / 8%);
 }
 
 .time {
   color: var(--color-neutral-900);
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .divider {
@@ -33,4 +44,12 @@
   width: var(--spacing-3);
   height: var(--spacing-3);
   background-color: var(--color-neutral-300);
+}
+
+@media (min-width: 1000px) {
+  .wrapper {
+    position: fixed;
+    bottom: 48px;
+    right: 64px;
+  }
 }
