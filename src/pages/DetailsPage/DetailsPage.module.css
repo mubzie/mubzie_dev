@@ -14,7 +14,7 @@
 
 .btnContainer {
   position: fixed;
-  left: max(1.5rem, calc((100vw - 556px - 20rem) / 2));
+  left: max(1.5rem, calc((100vw - 556px - 38rem) / 2));
   top: var(--spacing-14);
 }
 
