@@ -4,6 +4,7 @@
   gap: var(--spacing-11);
   min-height: 100%;
 
-  margin-top: var(--spacing-14);
-  margin-bottom: -80px;
+  max-width: 556px;
+  margin: 0 auto;
+  padding: var(--spacing-14) var(--spacing-6);
 }
