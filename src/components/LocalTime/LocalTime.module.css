@@ -10,6 +10,10 @@
   font-weight: var(--font-weight-medium);
 
   max-width: fit-content;
+
+  position: fixed;
+  bottom: 48px;
+  right: max(1.5rem, calc((100vw - 556px - 38rem) / 2));
 }
 
 .copyright {
@@ -48,8 +52,9 @@
 
 @media (min-width: 1000px) {
   .wrapper {
-    position: fixed;
-    bottom: 48px;
-    right: 64px;
+    /* position: fixed;
+    bottom: 48px; */
+    /* right: 64px; */
+    /* right: max(1.5rem, calc((100vw - 556px - 38rem) / 2)); */
   }
 }

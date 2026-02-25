@@ -1,9 +1,10 @@
+import { useEffect } from "react";
+import { ChevronLeft } from "lucide-react";
 import { useParams, useNavigate } from "react-router-dom";
 import { usePortfolioData } from "../../hooks/usePortfolioData";
 import styles from "./DetailsPage.module.css";
 import Button from "../../components/Button/Button";
 import { usePageTransition } from "../../hooks/usePageTransition";
-import { useEffect } from "react";
 
 function DetailsPage() {
   const { slug } = useParams();
@@ -33,32 +34,38 @@ function DetailsPage() {
   });
 
   return (
-    <div
-      className={`${styles.detailsPage} ${isExiting ? styles.pageExit : styles.pageEnter}`}
-    >
+    <>
       <div className={styles.btnContainer}>
-        <Button variant="secondary" onClick={handleBackButton}>
+        <Button
+          variant="secondary"
+          iconLeft={ChevronLeft}
+          onClick={handleBackButton}
+        >
           Back
         </Button>
       </div>
 
-      <div className={styles.wrapper}>
-        <h3 className={styles.header}>{categoryName}</h3>
-        <p className={styles.description}>{categoryDescription}</p>
+      <div
+        className={`${styles.detailsPage} ${isExiting ? styles.pageExit : styles.pageEnter}`}
+      >
+        <div className={styles.wrapper}>
+          <h3 className={styles.header}>{categoryName}</h3>
+          <p className={styles.description}>{categoryDescription}</p>
 
-        {projects.map((project) => (
-          <div key={project.id} className={styles.imageContainer}>
-            {project.images.map((image) => (
-              <>
-                <img key={image.id} src={image.imagePath} />
-                {image.imageDescription && <p>{image.imageDescription}</p>}
-              </>
-            ))}
-            <span className={styles.decorator}>* * *</span>
-          </div>
-        ))}
+          {projects.map((project) => (
+            <div key={project.id} className={styles.imageContainer}>
+              {project.images.map((image) => (
+                <>
+                  <img key={image.id} src={image.imagePath} />
+                  {image.imageDescription && <p>{image.imageDescription}</p>}
+                </>
+              ))}
+              <span className={styles.decorator}>* * *</span>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

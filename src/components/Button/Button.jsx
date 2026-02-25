@@ -4,11 +4,13 @@ import styles from "./Button.module.css";
 function Button({
   children,
   icon,
+  iconLeft,
   size = "big",
   variant = "primary",
   onClick,
 }) {
   const Icon = icon;
+  const IconLeft = iconLeft;
 
   const btnVariant = {
     primary: styles.btnPrimary,
@@ -31,6 +33,7 @@ function Button({
       onClick={onClick}
       className={`${styles.btn} ${btnVariant} ${btnSize}`}
     >
+      {IconLeft && <IconLeft size={iconSize[size]} />}
       <span>{children}</span>
       {Icon && <Icon size={iconSize[size]} />}
     </button>
@@ -40,6 +43,7 @@ function Button({
 Button.propTypes = {
   children: PropTypes.string,
   icon: PropTypes.element,
+  iconLeft: PropTypes.element,
   size: PropTypes.string,
   variant: PropTypes.string,
   onClick: PropTypes.func,

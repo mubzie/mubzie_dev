@@ -1,5 +1,5 @@
 .detailsPage {
-  position: relative;
+  /* position: relative; */
 
   display: flex;
   flex-direction: column;
@@ -9,13 +9,13 @@
 
   max-width: 556px;
   margin: 0 auto;
-  padding-left: var(--spacing-6);
-  padding-right: var(--spacing-6);
+  padding: var(--spacing-14) var(--spacing-6) var(--spacing-8);
 }
 
 .btnContainer {
   position: fixed;
-  left: -160px;
+  left: max(1.5rem, calc((100vw - 556px - 20rem) / 2));
+  top: var(--spacing-14);
 }
 
 .header {
