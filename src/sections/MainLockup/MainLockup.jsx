@@ -7,7 +7,7 @@ function MainLockup() {
     window.open(
       "https://drive.google.com/file/d/1GUd-awDFRmUn-MVsblINioVztJt-CEne/view?usp=sharing",
       "_blank",
-      "noopener,noreferrer"
+      "noopener,noreferrer",
     );
   };
 
@@ -15,7 +15,7 @@ function MainLockup() {
     window.open(
       "https://instantfind.me/mubarak",
       "_blank",
-      "noopener,noreferrer"
+      "noopener,noreferrer",
     );
   };
 
@@ -23,12 +23,13 @@ function MainLockup() {
     <div>
       <h3 className={styles.title}>Mubarak Rabiu - Product designer.</h3>
       <p className={styles.description}>
-        I’m a product designer with hands-on experience in graphic design, brand
-        identity, and digital experiences. My work is rooted in solving
-        real-world problems through thoughtful, user-centered design—where
-        creativity meets functionality. This portfolio showcases my
-        problem-solving approach—turning challenges into elegant solutions. I
-        love collaborating with teams that value innovation and execution.
+        I&apos;m a product designer who works across brand identity and digital
+        experience. The process matters as much as the outcome problem first,
+        solution second. I&apos;m rooted in user-centered thinking, where
+        creativity and functionality work together rather than against each
+        other. Browse my case studies on <a href="">[Behance]</a>, connect
+        professionally on <a href="">[LinkedIn]</a>, or catch smaller thoughts
+        and updates on <a href="">[X]</a>.
       </p>
       <div className={styles.btnContainer}>
         <Button onClick={resume} variant="primary" icon={ChevronRight}>
