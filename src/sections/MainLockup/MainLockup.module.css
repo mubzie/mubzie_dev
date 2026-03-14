@@ -49,3 +49,9 @@ p > a::after {
 p > a:hover::after {
   transform: scaleX(1);
 }
+
+@media (max-width: 550px) {
+  .btnContainer {
+    flex-direction: column;
+  }
+}

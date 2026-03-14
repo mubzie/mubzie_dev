@@ -30,8 +30,8 @@
   /* font-weight: 500; */
   color: var(--color-neutral-00);
 
-  /* margin-top: 24px; */
-  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .imageContainer {
@@ -89,4 +89,17 @@
 
 .pageExit {
   animation: fadeOut 0.3s ease-out forwards;
+}
+
+/* media query */
+@media (max-width: 550px) {
+  .btnContainer {
+    position: static;
+    padding: 0px 12px;
+    margin-top: 40px;
+  }
+
+  .detailsPage {
+    padding-top: 32px;
+  }
 }

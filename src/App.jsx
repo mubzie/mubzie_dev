@@ -5,7 +5,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import MainLockup from "./sections/MainLockup/MainLockup";
 import WorkSection from "./sections/WorkSection/WorkSection";
 import ExperienceSection from "./sections/ExperienceSection/ExperienceSection";
-import Footer from "./sections/Footer/Footer";
+// import Footer from "./sections/Footer/Footer";
 
 function App() {
   useEffect(() => {
@@ -18,7 +18,7 @@ function App() {
       <WorkSection />
       <ExperienceSection />
       <ContactForm />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

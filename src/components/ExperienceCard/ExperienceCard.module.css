@@ -49,3 +49,9 @@
   font-size: var(--font-size-base);
   line-height: var(--line-height-relaxed);
 }
+
+@media (max-width: 550px) {
+  .container {
+    flex-direction: column;
+  }
+}

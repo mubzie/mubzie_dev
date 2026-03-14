@@ -12,8 +12,8 @@ function WorkSection() {
       <div>
         <h4 className={styles.title}>Featured work</h4>
         <p className={styles.description}>
-          I am a product designer with a multidisciplinary background in graphic
-          design, brand identity, and digital experiences.
+          Selected work across UI, Web3, illustration, and design strategy.
+          Different mediums, one consistent approach.
         </p>
         <div className={styles.cardWrapper}>
           {categories.map((category) => (
