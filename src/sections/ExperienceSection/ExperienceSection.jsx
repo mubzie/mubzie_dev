@@ -1,8 +1,12 @@
 import styles from "./ExperienceSection.module.css";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import img from "../../../public/Images/img1.png";
+import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function ExperienceSection() {
+  const { getWorkExperience } = usePortfolioData();
+  const experiences = getWorkExperience();
+
   return (
     <div>
       <h4 className={styles.experienceTitle}>Work Experience</h4>
@@ -11,30 +15,17 @@ function ExperienceSection() {
         helped solve.
       </p>
       <div className={styles.experienceCardWrapper}>
-        <ExperienceCard
-          src={img}
-          alt="alt"
-          company="Cloudify"
-          designation="product designer"
-          duration="Mar '25 - Present"
-          description="Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency."
-        />
-        <ExperienceCard
-          src={img}
-          alt="alt"
-          company="Plently"
-          designation="product designer"
-          duration="Mar '25 - Present"
-          description="Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency."
-        />
-        <ExperienceCard
-          src={img}
-          alt="alt"
-          company="WishPo"
-          designation="product designer"
-          duration="Mar '23 - Dec '24"
-          description="Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency."
-        />
+        {experiences.map((experience) => (
+          <ExperienceCard
+            key={experience.id}
+            src={experience.image}
+            alt={experience.company}
+            company={experience.company}
+            designation={experience.designation}
+            duration={experience.duration}
+            description={experience.description}
+          />
+        ))}
       </div>
     </div>
   );

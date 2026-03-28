@@ -162,5 +162,31 @@
         }
       ]
     }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company": "Cloudivi",
+      "designation": "product designer",
+      "description": "Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency",
+      "duration": "Mar '25 - Present",
+      "image": "../public/Images/Cloudivi.png"
+    },
+    {
+      "id": 2,
+      "company": "Plently",
+      "designation": "product designer",
+      "description": "Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency",
+      "duration": "Mar '25 - Present",
+      "image": "../public/Images/Plently.png"
+    },
+    {
+      "id": 3,
+      "company": "Curaboard",
+      "designation": "product designer",
+      "description": "Tasked with designing intuitive user and admin dashboards focused on clarity and brand consistency",
+      "duration": "Mar '25 - Present",
+      "image": "../public/Images/Curaboard.png"
+    }
   ]
 }

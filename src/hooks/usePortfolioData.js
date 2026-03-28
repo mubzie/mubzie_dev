@@ -8,7 +8,7 @@ export const usePortfolioData = () => {
 
   const getAllCategories = () => {
     const categories = data.categories.sort(
-      (a, b) => a.displayOrder - b.displayOrder
+      (a, b) => a.displayOrder - b.displayOrder,
     );
 
     return categories;
@@ -16,7 +16,7 @@ export const usePortfolioData = () => {
 
   const getProjectByCategory = (categorySlug) => {
     const category = data.categories.find(
-      (category) => category.slug === categorySlug
+      (category) => category.slug === categorySlug,
     );
     if (!category) return [];
 
@@ -29,7 +29,7 @@ export const usePortfolioData = () => {
 
   const getProjectById = (projectId) => {
     const project = data.projects.find(
-      (project) => project.id === parseInt(projectId)
+      (project) => project.id === parseInt(projectId),
     );
 
     return project;
@@ -48,6 +48,12 @@ export const usePortfolioData = () => {
     return coverImage;
   };
 
+  const getWorkExperience = () => {
+    const experience = data.experience;
+
+    return experience;
+  };
+
   return {
     data,
     getAllCategories,
@@ -55,5 +61,6 @@ export const usePortfolioData = () => {
     getProjectById,
     getCategoryBySlug,
     getProjectCoverImage,
+    getWorkExperience,
   };
 };
