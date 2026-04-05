@@ -23,6 +23,8 @@
 
   transition: transform 0.4s ease;
   z-index: 0;
+
+  margin: 0 auto;
 }
 
 .WorkCardWrapper:hover .cardBg {

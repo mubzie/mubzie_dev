@@ -6,7 +6,7 @@
       "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "slug": "ui-exploration",
       "displayOrder": 1,
-      "image": "../public/Images/img1.png",
+      "image": "../public/Images/folder.png",
       "icon": "../public/Icons/spline-pointer.svg"
     },
     {
@@ -15,7 +15,7 @@
       "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "slug": "web3",
       "displayOrder": 2,
-      "image": "../public/Images/img1.png",
+      "image": "../public/Images/folder.png",
       "icon": "../public/Icons/skull.svg"
     },
     {
@@ -24,7 +24,7 @@
       "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "slug": "illustration",
       "displayOrder": 3,
-      "image": "../public/Images/img1.png",
+      "image": "../public/Images/folder.png",
       "icon": "../public/Icons/pen-tool.svg"
     },
     {
@@ -33,7 +33,7 @@
       "slug": "case-study",
       "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
       "displayOrder": 4,
-      "image": "../public/Images/img1.png",
+      "image": "../public/Images/folder.png",
       "icon": "../public/Icons/book-open.svg"
     }
   ],
