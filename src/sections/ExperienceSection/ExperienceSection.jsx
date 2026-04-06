@@ -11,7 +11,7 @@ function ExperienceSection() {
     <div>
       <h4 className={styles.experienceTitle}>Work Experience</h4>
       <p className={styles.experienceDescription}>
-        A timeline of the teams I&apos;ve worked with and the problems I&apos;ve
+        A timeline of the teams he&apos;s worked with and the problems he&apos;s
         helped solve.
       </p>
       <div className={styles.experienceCardWrapper}>

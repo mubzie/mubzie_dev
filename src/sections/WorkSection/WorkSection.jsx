@@ -12,8 +12,8 @@ function WorkSection() {
       <div>
         <h4 className={styles.title}>Featured work</h4>
         <p className={styles.description}>
-          Selected work across UI, Web3, illustration, and design strategy.
-          Different mediums, one consistent approach.
+          Selected work across UI, Web3 UI exploration, illustration, and design
+          implementation. Different mediums, one consistent approach.
         </p>
         <div className={styles.cardWrapper}>
           {categories.map((category) => (

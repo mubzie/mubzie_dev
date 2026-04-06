@@ -23,13 +23,13 @@ function MainLockup() {
     <div>
       <h3 className={styles.title}>Mubarak Rabiu - Product designer.</h3>
       <p className={styles.description}>
-        I&apos;m a product designer who works across brand identity and digital
-        experience. The process matters as much as the outcome problem first,
-        solution second. I&apos;m rooted in user-centered thinking, where
-        creativity and functionality work together rather than against each
-        other. Browse my case studies on <a href="">[Behance]</a>, connect
-        professionally on <a href="">[LinkedIn]</a>, or catch smaller thoughts
-        and updates on <a href="">[X]</a>.
+        Mubarak Rabiu is a product designer who works across brand identity and
+        digital experience. For him, the process matters as much as the outcome.
+        Problem first, solution second. He&apos;s rooted in user-centered
+        thinking, where creativity and functionality work together rather than
+        against each other. Browse his case studies on <a href="">[Behance]</a>,
+        connect professionally on <a href="">[LinkedIn]</a>, or catch smaller
+        thoughts and updates on <a href="">[X]</a>.
       </p>
       <div className={styles.btnContainer}>
         <Button onClick={resume} variant="primary" icon={ChevronRight}>
