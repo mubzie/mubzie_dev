@@ -51,7 +51,13 @@ p > a:hover::after {
 }
 
 @media (max-width: 550px) {
+  .title {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-tight);
+  }
+
   .btnContainer {
     flex-direction: column;
+    gap: var(--spacing-5);
   }
 }
