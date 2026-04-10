@@ -55,6 +55,12 @@
 .imageDescription {
   font-size: var(--font-size-sm);
   line-height: var(--line-height-relaxed);
+  color: var(--color-neutral-400);
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; /* Standard (Chrome, Edge, Opera) */
 }
 
 .decorator {
