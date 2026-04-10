@@ -57,7 +57,11 @@ function DetailsPage() {
               {project.images.map((image) => (
                 <>
                   <img key={image.id} src={image.imagePath} />
-                  {image.imageDescription && <p>{image.imageDescription}</p>}
+                  {image.imageDescription && (
+                    <p className={styles.imageDescription}>
+                      {image.imageDescription}
+                    </p>
+                  )}
                 </>
               ))}
               <span className={styles.decorator}>* * *</span>
