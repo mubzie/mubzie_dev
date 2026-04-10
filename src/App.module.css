@@ -8,3 +8,11 @@
   margin: 0 auto;
   padding: var(--spacing-14) var(--spacing-6);
 }
+
+/* media query */
+@media (max-width: 550px) {
+  .appWrapper {
+    padding-top: var(--spacing-11);
+    padding-bottom: var(--spacing-11);
+  }
+}
