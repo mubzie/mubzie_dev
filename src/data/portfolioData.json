@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "UI Exploration",
-      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
+      "description": "A collection of UI concepts and visual explorations. Things I've designed to think through problems, test ideas, or simply create.",
       "slug": "ui-exploration",
       "displayOrder": 1,
       "image": "/Images/folder.png",
@@ -11,8 +11,8 @@
     },
     {
       "id": 2,
-      "name": "Web3 exploration",
-      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
+      "name": "Web3 Exploration",
+      "description": "Web3 concepts and interface explorations. Designing for decentralized products, wallets, and the ecosystems around them.",
       "slug": "web3",
       "displayOrder": 2,
       "image": "/Images/folder.png",
@@ -20,8 +20,8 @@
     },
     {
       "id": 3,
-      "name": "Illustration design",
-      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
+      "name": "Illustration Design",
+      "description": "Illustration as a design tool. This space captures work where I've used drawing and visual narrative to communicate ideas, build worlds, and add personality to products.",
       "slug": "illustration",
       "displayOrder": 3,
       "image": "/Images/folder.png",
@@ -29,9 +29,9 @@
     },
     {
       "id": 4,
-      "name": "Case Study",
-      "slug": "case-study",
-      "description": "I am a product designer with multidisciplinary background in graphic design, brand identity, and digital experiences. My work is driven by a passion for solving real-world problems through innovative, user-centered design solutions",
+      "name": "Design Engineering",
+      "slug": "design-engineering",
+      "description": "Designed and built. This space captures polished web interactions and motion-driven UI implemented with CSS and animation libraries, not just mocked up.",
       "displayOrder": 4,
       "image": "/Images/folder.png",
       "icon": "/Icons/book-open.svg"
