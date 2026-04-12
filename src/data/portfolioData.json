@@ -49,14 +49,20 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/Images/img1.png",
+          "imagePath": "/Images/w3-3.avif",
           "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/Images/sample16.png",
+          "imagePath": "/Images/w3-3a.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/w3-1.avif",
           "displayOrder": 2,
           "isCoverImage": false
         }
@@ -73,7 +79,7 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/Images/sample16.png",
+          "imagePath": "/Images/w3-1.avif",
           "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
           "displayOrder": 1,
           "isCoverImage": true
@@ -98,22 +104,33 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/images/ui-exploration/dashboard/overview.jpg",
+          "imagePath": "/Images/w3-id1-1.avif",
           "imageDescription": "Full dashboard overview showing main navigation and key metrics",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/images/ui-exploration/dashboard/mobile.jpg",
-          "imageDescription": "Mobile responsive version of the dashboard",
+          "imagePath": "/Images/w3-id1-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/w3-id1-3.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/w3-id1-4.avif",
           "displayOrder": 2,
           "isCoverImage": false
         }
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "categoryId": 2,
       "title": "E-commerce Dashboard Redesign",
       "description": "Modern dashboard interface design focusing on user experience and data visualization.",
@@ -123,23 +140,22 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/images/ui-exploration/dashboard/overview.jpg",
+          "imagePath": "/Images/w3-id2-1.avif",
           "imageDescription": "Full dashboard overview showing main navigation and key metrics",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/images/ui-exploration/dashboard/mobile.jpg",
-          "imageDescription": "Mobile responsive version of the dashboard",
+          "imagePath": "/Images/w3-id2-2.avif",
           "displayOrder": 2,
           "isCoverImage": false
         }
       ]
     },
     {
-      "id": 1,
-      "categoryId": 4,
+      "id": 3,
+      "categoryId": 2,
       "title": "E-commerce Dashboard Redesign",
       "description": "Modern dashboard interface design focusing on user experience and data visualization.",
       "createdDate": "2024-02-28",
@@ -148,14 +164,53 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/images/ui-exploration/dashboard/overview.jpg",
+          "imagePath": "/Images/w3-id3-1.avif",
           "imageDescription": "Full dashboard overview showing main navigation and key metrics",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/images/ui-exploration/dashboard/mobile.jpg",
+          "imagePath": "/Images/w3-id3-2.avif",
+          "imageDescription": "Mobile responsive version of the dashboard",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/w3-id4-1.avif",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id4-2.avif",
+          "imageDescription": "Mobile responsive version of the dashboard",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id4-3.avif",
+          "imageDescription": "Mobile responsive version of the dashboard",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id4-4.avif",
           "imageDescription": "Mobile responsive version of the dashboard",
           "displayOrder": 2,
           "isCoverImage": false

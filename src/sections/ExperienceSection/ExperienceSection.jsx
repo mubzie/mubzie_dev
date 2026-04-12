@@ -1,6 +1,5 @@
 import styles from "./ExperienceSection.module.css";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
-import img from "../../../public/Images/img1.png";
 import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function ExperienceSection() {
