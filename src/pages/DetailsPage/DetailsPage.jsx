@@ -5,6 +5,7 @@ import { usePortfolioData } from "../../hooks/usePortfolioData";
 import styles from "./DetailsPage.module.css";
 import Button from "../../components/Button/Button";
 import { usePageTransition } from "../../hooks/usePageTransition";
+import ImageWithSkeleton from "../../components/ImageWithSkeleton/ImageWithSkeleton";
 
 function DetailsPage() {
   const { slug } = useParams();
@@ -56,7 +57,8 @@ function DetailsPage() {
             <div key={project.id} className={styles.imageContainer}>
               {project.images.map((image) => (
                 <>
-                  <img key={image.id} src={image.imagePath} />
+                  {/* <img key={image.id} src={image.imagePath} /> */}
+                  <ImageWithSkeleton key={image.id} src={image.imagePath} />
                   {image.imageDescription && (
                     <p className={styles.imageDescription}>
                       {image.imageDescription}
