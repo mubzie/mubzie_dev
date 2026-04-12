@@ -172,7 +172,6 @@
         {
           "id": 2,
           "imagePath": "/Images/w3-id3-2.avif",
-          "imageDescription": "Mobile responsive version of the dashboard",
           "displayOrder": 2,
           "isCoverImage": false
         }
@@ -197,22 +196,19 @@
         {
           "id": 2,
           "imagePath": "/Images/w3-id4-2.avif",
-          "imageDescription": "Mobile responsive version of the dashboard",
           "displayOrder": 2,
           "isCoverImage": false
         },
         {
-          "id": 2,
+          "id": 3,
           "imagePath": "/Images/w3-id4-3.avif",
-          "imageDescription": "Mobile responsive version of the dashboard",
-          "displayOrder": 2,
+          "displayOrder": 3,
           "isCoverImage": false
         },
         {
-          "id": 2,
+          "id": 4,
           "imagePath": "/Images/w3-id4-4.avif",
-          "imageDescription": "Mobile responsive version of the dashboard",
-          "displayOrder": 2,
+          "displayOrder": 4,
           "isCoverImage": false
         }
       ]
