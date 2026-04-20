@@ -11,8 +11,8 @@ function WorkCard({ icon, cardTitle, onClick, img, alt, slug }) {
     >
       <img src={img} alt={alt} className={styles.cardBg} />
       <div className={styles.textWrapper}>
-        <img src={icon} alt={alt} className={styles.icon} />
         <p>{cardTitle}</p>
+        <img src={icon} alt={alt} className={styles.icon} />
       </div>
     </Link>
   );

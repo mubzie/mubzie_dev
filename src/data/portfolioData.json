@@ -6,8 +6,8 @@
       "description": "A collection of UI concepts and visual explorations. Things I've designed to think through problems, test ideas, or simply create.",
       "slug": "ui-exploration",
       "displayOrder": 1,
-      "image": "/Images/folder.png",
-      "icon": "/Icons/spline-pointer.svg"
+      "image": "/Icons/pennib.svg",
+      "icon": "/Icons/CaretRight.svg"
     },
     {
       "id": 2,
@@ -15,8 +15,8 @@
       "description": "Web3 concepts and interface explorations. Designing for decentralized products, wallets, and the ecosystems around them.",
       "slug": "web3",
       "displayOrder": 2,
-      "image": "/Images/folder.png",
-      "icon": "/Icons/skull.svg"
+      "image": "/Icons/skull.svg",
+      "icon": "/Icons/CaretRight.svg"
     },
     {
       "id": 3,
@@ -24,8 +24,8 @@
       "description": "Illustration as a design tool. This space captures work where I've used drawing and visual narrative to communicate ideas, build worlds, and add personality to products.",
       "slug": "illustration",
       "displayOrder": 3,
-      "image": "/Images/folder.png",
-      "icon": "/Icons/pen-tool.svg"
+      "image": "/Icons/swatches.svg",
+      "icon": "/Icons/CaretRight.svg"
     },
     {
       "id": 4,
@@ -33,8 +33,8 @@
       "slug": "design-engineering",
       "description": "Designed and built. This space captures polished web interactions and motion-driven UI implemented with CSS and animation libraries, not just mocked up.",
       "displayOrder": 4,
-      "image": "/Images/folder.png",
-      "icon": "/Icons/book-open.svg"
+      "image": "/Icons/cpu.svg",
+      "icon": "/Icons/CaretRight.svg"
     }
   ],
   "projects": [
