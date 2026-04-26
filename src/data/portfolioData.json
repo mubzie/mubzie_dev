@@ -494,7 +494,7 @@
         }
       ]
     },
-      {
+    {
       "id": 7,
       "categoryId": 2,
       "title": "E-commerce Dashboard Redesign",
@@ -545,14 +545,6 @@
       "description": "Joined as the sole designer and took full ownership of the product experience. Shaping UI direction, design systems, and ongoing feature work",
       "duration": "Mar '25 - Present",
       "image": "/Images/Cloudivi.png"
-    },
-    {
-      "id": 2,
-      "company": "Plently",
-      "designation": "product designer",
-      "description": "Responsible for the end-to-end product experience, bringing design consistency and structure to a product already in motion",
-      "duration": "Mar '25 - Present",
-      "image": "/Images/Plently.png"
     },
     {
       "id": 3,
