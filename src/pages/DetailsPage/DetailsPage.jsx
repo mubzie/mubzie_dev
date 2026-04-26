@@ -12,7 +12,7 @@ function DetailsPage() {
   const navigate = useNavigate();
 
   const { getCategoryBySlug, getProjectByCategory } = usePortfolioData();
-  const { isExiting, startTransition } = usePageTransition(300);
+  const { isExiting, startTransition } = usePageTransition(140);
 
   const category = getCategoryBySlug(slug);
   const projects = getProjectByCategory(slug);
@@ -32,10 +32,10 @@ function DetailsPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+  }, []);
 
   return (
-    <>
+    <div className={styles.wrapperContainer}>
       <div className={styles.btnContainer}>
         <Button
           variant="secondary"
@@ -71,7 +71,7 @@ function DetailsPage() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
