@@ -28,11 +28,18 @@ function MainLockup() {
         Problem first, solution second. He&apos;s rooted in user-centered
         thinking, where creativity and functionality work together rather than
         against each other. Browse his case studies on{" "}
-        <a href="https://www.behance.net/mubzie">[Behance]</a>, connect
-        professionally on{" "}
-        <a href="https://www.linkedin.com/in/mubarakrabiu/">[LinkedIn]</a>, or
-        catch smaller thoughts and updates on{" "}
-        <a href="https://x.com/mubizzu">[X]</a>.
+        <a href="https://www.behance.net/mubzie" target="_blank">
+          [Behance]
+        </a>
+        , connect professionally on{" "}
+        <a href="https://www.linkedin.com/in/mubarakrabiu/" target="_blank">
+          [LinkedIn]
+        </a>
+        , or catch smaller thoughts and updates on{" "}
+        <a href="https://x.com/mubizzu" target="_blank">
+          [X]
+        </a>
+        .
       </p>
       <div className={styles.btnContainer}>
         <Button onClick={resume} variant="primary" icon={ChevronRight}>
