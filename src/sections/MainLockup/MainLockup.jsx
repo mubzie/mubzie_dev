@@ -28,15 +28,27 @@ function MainLockup() {
         Problem first, solution second. He&apos;s rooted in user-centered
         thinking, where creativity and functionality work together rather than
         against each other. Browse his case studies on{" "}
-        <a href="https://www.behance.net/mubzie" target="_blank">
+        <a
+          href="https://www.behance.net/mubzie"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           [Behance]
         </a>
         , connect professionally on{" "}
-        <a href="https://www.linkedin.com/in/mubarakrabiu/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/mubarakrabiu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           [LinkedIn]
         </a>
         , or catch smaller thoughts and updates on{" "}
-        <a href="https://x.com/mubizzu" target="_blank">
+        <a
+          href="https://x.com/mubizzu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           [X]
         </a>
         .

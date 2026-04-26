@@ -1,13 +1,10 @@
 import portfolioData from "../data/portfolioData.json";
-import { useState } from "react";
 
 export const usePortfolioData = () => {
-  const [data, setData] = useState(portfolioData);
-
-  // console.log(data);
+  const data = portfolioData;
 
   const getAllCategories = () => {
-    const categories = data.categories.sort(
+    const categories = [...data.categories].sort(
       (a, b) => a.displayOrder - b.displayOrder,
     );
 

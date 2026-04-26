@@ -19,6 +19,7 @@ function LinkButton({ children, icon, size, link }) {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
+      aria-label={children}
       className={`${styles.linkBtn} ${btnSize}`}
     >
       <span>{children}</span>
@@ -29,7 +30,7 @@ function LinkButton({ children, icon, size, link }) {
 
 LinkButton.propTypes = {
   children: PropTypes.string,
-  icon: PropTypes.element,
+  icon: PropTypes.elementType,
   size: PropTypes.string,
   link: PropTypes.string,
 };

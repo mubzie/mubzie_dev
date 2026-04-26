@@ -8,6 +8,8 @@ function Button({
   size = "big",
   variant = "primary",
   onClick,
+  type = "button",
+  ariaLabel,
 }) {
   const Icon = icon;
   const IconLeft = iconLeft;
@@ -30,7 +32,9 @@ function Button({
 
   return (
     <button
+      type={type}
       onClick={onClick}
+      aria-label={ariaLabel}
       className={`${styles.btn} ${btnVariant} ${btnSize}`}
     >
       {IconLeft && <IconLeft size={iconSize[size]} />}
@@ -41,12 +45,14 @@ function Button({
 }
 
 Button.propTypes = {
-  children: PropTypes.string,
-  icon: PropTypes.element,
-  iconLeft: PropTypes.element,
+  children: PropTypes.node,
+  icon: PropTypes.elementType,
+  iconLeft: PropTypes.elementType,
   size: PropTypes.string,
   variant: PropTypes.string,
   onClick: PropTypes.func,
+  type: PropTypes.oneOf(["button", "submit", "reset"]),
+  ariaLabel: PropTypes.string,
 };
 
 export default Button;

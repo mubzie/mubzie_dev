@@ -10,16 +10,22 @@ import ExperienceSection from "./sections/ExperienceSection/ExperienceSection";
 function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
-  });
+    document.title = "Mubarak Rabiu - Portfolio";
+  }, []);
 
   return (
-    <div className={styles.appWrapper}>
-      <MainLockup />
-      <WorkSection />
-      <ExperienceSection />
-      <ContactForm />
-      {/* <Footer /> */}
-    </div>
+    <>
+      <a href="#main-content" className={styles.skipLink}>
+        Skip to main content
+      </a>
+      <main id="main-content" className={styles.appWrapper}>
+        <MainLockup />
+        <WorkSection />
+        <ExperienceSection />
+        <ContactForm />
+        {/* <Footer /> */}
+      </main>
+    </>
   );
 }
 

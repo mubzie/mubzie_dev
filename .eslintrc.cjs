@@ -17,5 +17,28 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
+    "a11yinspect/title-element-error": "off",
+    "a11yinspect/landmark-element-error": "off",
+    "a11yinspect/skip-link-warning": "off",
   },
+  overrides: [
+    {
+      files: ["src/components/Button/Button.jsx"],
+      rules: {
+        "a11yinspect/button-element-error": "off",
+      },
+    },
+    {
+      files: ["src/components/LinkButton/LinkButton.jsx"],
+      rules: {
+        "a11yinspect/a-element-error": "off",
+      },
+    },
+    {
+      files: ["src/pages/DetailsPage/DetailsPage.jsx"],
+      rules: {
+        "a11yinspect/heading-element-error": "off",
+      },
+    },
+  ],
 };

@@ -17,8 +17,8 @@ function DetailsPage() {
   const category = getCategoryBySlug(slug);
   const projects = getProjectByCategory(slug);
 
-  const categoryName = category.name;
-  const categoryDescription = category.description;
+  const categoryName = category?.name ?? "Work Details";
+  const categoryDescription = category?.description ?? "";
 
   const handleBackButton = () => {
     startTransition(() => {
@@ -34,6 +34,10 @@ function DetailsPage() {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    document.title = `${categoryName} - Mubarak Rabiu`;
+  }, [categoryName]);
+
   return (
     <div className={styles.wrapperContainer}>
       <div className={styles.btnContainer}>
@@ -46,7 +50,8 @@ function DetailsPage() {
         </Button>
       </div>
 
-      <div
+      <main
+        id="details-main"
         className={`${styles.detailsPage} ${isExiting ? styles.pageExit : styles.pageEnter}`}
       >
         <div className={styles.wrapper}>
@@ -56,21 +61,26 @@ function DetailsPage() {
           {projects.map((project) => (
             <div key={project.id} className={styles.imageContainer}>
               {project.images.map((image) => (
-                <>
-                  {/* <img key={image.id} src={image.imagePath} /> */}
-                  <ImageWithSkeleton key={image.id} src={image.imagePath} />
+                <div key={image.id}>
+                  <ImageWithSkeleton
+                    src={image.imagePath}
+                    alt={
+                      image.imageDescription ||
+                      `${project.title} visual ${image.id}`
+                    }
+                  />
                   {image.imageDescription && (
                     <p className={styles.imageDescription}>
                       {image.imageDescription}
                     </p>
                   )}
-                </>
+                </div>
               ))}
               <span className={styles.decorator}>* * *</span>
             </div>
           ))}
         </div>
-      </div>
+      </main>
     </div>
   );
 }

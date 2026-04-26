@@ -7,7 +7,7 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const isEmpty = !username | !email | !message;
+  const isEmpty = !username || !email || !message;
 
   const form = useRef();
 
@@ -24,7 +24,7 @@ function ContactForm() {
         },
         (error) => {
           console.log("FAILED...", error.text);
-        }
+        },
       );
 
     setUsername("");
@@ -41,21 +41,35 @@ function ContactForm() {
         ref={form}
         onSubmit={handleSubmit}
         className={styles.formContainter}
+        aria-label="Contact form"
       >
+        <label htmlFor="name" className={styles.srOnly}>
+          Name
+        </label>
         <input
+          id="name"
           type="text"
           name="name"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           placeholder="Name"
+          autoComplete="name"
         />
+        <label htmlFor="email" className={styles.srOnly}>
+          E-mail address
+        </label>
         <input
+          id="email"
           type="email"
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="E-mail address"
+          autoComplete="email"
         />
+        <label htmlFor="message" className={styles.srOnly}>
+          Message
+        </label>
         <textarea
           name="message"
           id="message"
@@ -64,6 +78,7 @@ function ContactForm() {
           placeholder="Message"
         ></textarea>
         <button
+          type="submit"
           disabled={isEmpty}
           className={`${styles.formBtn} ${
             isEmpty ? styles.isEmpty : styles.isActive
