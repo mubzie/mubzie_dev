@@ -12,7 +12,7 @@ function ExperienceCard({
   return (
     <div className={styles.experienceCardWrapper}>
       <div className={styles.container}>
-        <img src={src} alt={alt} />
+        <img src={src} alt={alt} loading="lazy" decoding="async" />
         <div className={styles.textWrapper}>
           <p className={styles.company}>{company}</p>
           <div className={styles.textContainer}>

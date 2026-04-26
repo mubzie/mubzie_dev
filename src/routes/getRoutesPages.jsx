@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
+import { Suspense, lazy } from "react";
 import App from "../App";
-import DetailsPage from "../pages/DetailsPage/DetailsPage";
+
+const DetailsPage = lazy(() => import("../pages/DetailsPage/DetailsPage"));
 
 const router = createBrowserRouter([
   {
@@ -9,7 +11,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/featured-work/:slug",
-    element: <DetailsPage />,
+    element: (
+      <Suspense fallback={null}>
+        <DetailsPage />
+      </Suspense>
+    ),
   },
 ]);
 

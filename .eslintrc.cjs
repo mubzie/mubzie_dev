@@ -40,5 +40,11 @@ module.exports = {
         "a11yinspect/heading-element-error": "off",
       },
     },
+    {
+      files: ["src/routes/getRoutesPages.jsx"],
+      rules: {
+        "react-refresh/only-export-components": "off",
+      },
+    },
   ],
 };

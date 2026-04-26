@@ -1,14 +1,14 @@
 import styles from "./WorkSection.module.css";
 import WorkCard from "../../components/WorkCard/WorkCard";
-import { usePortfolioData } from "../../hooks/usePortfolioData";
+import homeData from "../../data/homeData.json";
 
 function WorkSection() {
-  const { getAllCategories, data } = usePortfolioData();
-
-  const categories = getAllCategories();
+  const categories = [...homeData.categories].sort(
+    (a, b) => a.displayOrder - b.displayOrder,
+  );
 
   return (
-    <>
+    <div className={styles.section}>
       <div>
         <h4 className={styles.title}>Featured work</h4>
         <p className={styles.description}>
@@ -16,27 +16,20 @@ function WorkSection() {
           implementation. Different mediums, one consistent approach.
         </p>
         <div className={styles.cardWrapper}>
-          {categories.map((category) => {
-            const isFeatured = data.projects.some(
-              (project) =>
-                project.categoryId === category.id && project.isFeatured,
-            );
-
-            return (
-              <WorkCard
-                key={category.id}
-                cardTitle={category.name}
-                img={category.image}
-                alt={category.name}
-                icon={category.icon}
-                slug={category.slug}
-                isFeatured={isFeatured}
-              />
-            );
-          })}
+          {categories.map((category) => (
+            <WorkCard
+              key={category.id}
+              cardTitle={category.name}
+              img={category.image}
+              alt={category.name}
+              icon={category.icon}
+              slug={category.slug}
+              isFeatured={category.isFeatured}
+            />
+          ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

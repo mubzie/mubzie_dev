@@ -10,7 +10,13 @@ function WorkCard({ icon, cardTitle, onClick, img, alt, slug, isFeatured }) {
         className={`${styles.WorkCardWrapper} ${styles.inactiveCard}`}
         aria-disabled="true"
       >
-        <img src={img} alt={alt} className={styles.cardBg} />
+        <img
+          src={img}
+          alt={alt}
+          className={styles.cardBg}
+          loading="lazy"
+          decoding="async"
+        />
         <div className={styles.textWrapper}>
           <p>{cardTitle}</p>
           <Lock
@@ -29,13 +35,21 @@ function WorkCard({ icon, cardTitle, onClick, img, alt, slug, isFeatured }) {
       onClick={onClick}
       className={styles.WorkCardWrapper}
     >
-      <img src={img} alt={alt} className={styles.cardBg} />
+      <img
+        src={img}
+        alt={alt}
+        className={styles.cardBg}
+        loading="lazy"
+        decoding="async"
+      />
       <div className={styles.textWrapper}>
         <p>{cardTitle}</p>
         <img
           src={icon}
           alt={alt}
           className={`${styles.icon} ${styles.imageIcon}`}
+          loading="lazy"
+          decoding="async"
         />
       </div>
     </Link>
