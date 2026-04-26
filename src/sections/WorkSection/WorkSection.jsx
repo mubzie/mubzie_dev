@@ -3,7 +3,7 @@ import WorkCard from "../../components/WorkCard/WorkCard";
 import { usePortfolioData } from "../../hooks/usePortfolioData";
 
 function WorkSection() {
-  const { getAllCategories } = usePortfolioData();
+  const { getAllCategories, data } = usePortfolioData();
 
   const categories = getAllCategories();
 
@@ -16,16 +16,24 @@ function WorkSection() {
           implementation. Different mediums, one consistent approach.
         </p>
         <div className={styles.cardWrapper}>
-          {categories.map((category) => (
-            <WorkCard
-              key={category.id}
-              cardTitle={category.name}
-              img={category.image}
-              alt={category.name}
-              icon={category.icon}
-              slug={category.slug}
-            />
-          ))}
+          {categories.map((category) => {
+            const isFeatured = data.projects.some(
+              (project) =>
+                project.categoryId === category.id && project.isFeatured,
+            );
+
+            return (
+              <WorkCard
+                key={category.id}
+                cardTitle={category.name}
+                img={category.image}
+                alt={category.name}
+                icon={category.icon}
+                slug={category.slug}
+                isFeatured={isFeatured}
+              />
+            );
+          })}
         </div>
       </div>
     </>
