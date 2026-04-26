@@ -49,27 +49,51 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/Images/w3-3.avif",
-          "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
+          "imagePath": "/Images/ui-id1-1.avif",
+          "imageDescription": "I am a product, brand identity, and digital experiences.",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/Images/w3-3a.avif",
+          "imagePath": "/Images/ui-id1-2.avif",
           "displayOrder": 2,
           "isCoverImage": false
         },
         {
           "id": 3,
-          "imagePath": "/Images/w3-1.avif",
-          "displayOrder": 2,
+          "imagePath": "/Images/ui-id1-3.avif",
+          "displayOrder": 3,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/ui-id1-4.avif",
+          "displayOrder": 4,
+          "isCoverImage": false
+        },
+        {
+          "id": 5,
+          "imagePath": "/Images/ui-id1-5.avif",
+          "displayOrder": 5,
+          "isCoverImage": false
+        },
+        {
+          "id": 6,
+          "imagePath": "/Images/ui-id1-6.avif",
+          "displayOrder": 6,
+          "isCoverImage": false
+        },
+        {
+          "id": 7,
+          "imagePath": "/Images/ui-id1-7.avif",
+          "displayOrder": 7,
           "isCoverImage": false
         }
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "categoryId": 1,
       "title": "Digital Portrait Series",
       "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
@@ -79,17 +103,148 @@
       "images": [
         {
           "id": 1,
-          "imagePath": "/Images/w3-1.avif",
-          "imageDescription": "I am a product designer with a multidisciplinary background in graphic design, brand identity, and digital experiences.",
+          "imagePath": "/Images/ui-id2-1.avif",
+          "imageDescription": "I am an experiences.",
           "displayOrder": 1,
           "isCoverImage": true
         },
         {
           "id": 2,
-          "imagePath": "/Images/sample16.png",
-          "imageDescription": "Close-up detail showing texture and brushwork",
+          "imagePath": "/Images/ui-id2-2.avif",
           "displayOrder": 2,
           "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/ui-id2-3.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/ui-id2-4.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 5,
+          "imagePath": "/Images/ui-id2-5.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "title": "Digital Portrait Series",
+      "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
+      "createdDate": "2024-03-15",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/ui-id3-1.avif",
+          "imageDescription": "I am an experiences.",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/ui-id3-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/ui-id3-3.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/ui-id3-4.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 5,
+          "imagePath": "/Images/ui-id3-5.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 6,
+          "imagePath": "/Images/ui-id3-6.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "title": "Digital Portrait Series",
+      "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
+      "createdDate": "2024-03-15",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/ui-id4-1.avif",
+          "imageDescription": "I am an experiences.",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/ui-id4-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "title": "Digital Portrait Series",
+      "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
+      "createdDate": "2024-03-15",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/ui-id5-1.avif",
+          "imageDescription": "I am an experiences.",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/ui-id5-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 1,
+      "title": "Digital Portrait Series",
+      "description": "A collection of digital portraits exploring modern identity and digital representation in contemporary art.",
+      "createdDate": "2024-03-15",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/ui-id6-1.avif",
+          "imageDescription": "I am an experiences.",
+          "displayOrder": 1,
+          "isCoverImage": true
         }
       ]
     },
@@ -209,6 +364,174 @@
           "id": 4,
           "imagePath": "/Images/w3-id4-4.avif",
           "displayOrder": 4,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/w3-id5-1.avif",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id5-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/w3-id5-3.avif",
+          "displayOrder": 3,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/w3-id5-4.avif",
+          "displayOrder": 4,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/w3-id6-1.avif",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id6-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/w3-id6-3.avif",
+          "displayOrder": 3,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/w3-id6-4.avif",
+          "displayOrder": 4,
+          "isCoverImage": false
+        },
+        {
+          "id": 5,
+          "imagePath": "/Images/w3-id6-5.avif",
+          "displayOrder": 4,
+          "isCoverImage": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/w3-id7-1.avif",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id7-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/w3-id7-3.avif",
+          "displayOrder": 3,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/w3-id7-4.avif",
+          "displayOrder": 4,
+          "isCoverImage": false
+        },
+        {
+          "id": 5,
+          "imagePath": "/Images/w3-id7-5.avif",
+          "displayOrder": 5,
+          "isCoverImage": false
+        },
+        {
+          "id": 6,
+          "imagePath": "/Images/w3-id7-6.avif",
+          "displayOrder": 6,
+          "isCoverImage": false
+        }
+      ]
+    },
+      {
+      "id": 7,
+      "categoryId": 2,
+      "title": "E-commerce Dashboard Redesign",
+      "description": "Modern dashboard interface design focusing on user experience and data visualization.",
+      "createdDate": "2024-02-28",
+      "displayOrder": 1,
+      "isFeatured": true,
+      "images": [
+        {
+          "id": 1,
+          "imagePath": "/Images/w3-id8-1.avif",
+          "imageDescription": "Full dashboard overview showing main navigation and key metrics",
+          "displayOrder": 1,
+          "isCoverImage": true
+        },
+        {
+          "id": 2,
+          "imagePath": "/Images/w3-id8-2.avif",
+          "displayOrder": 2,
+          "isCoverImage": false
+        },
+        {
+          "id": 3,
+          "imagePath": "/Images/w3-id8-3.avif",
+          "displayOrder": 3,
+          "isCoverImage": false
+        },
+        {
+          "id": 4,
+          "imagePath": "/Images/w3-id8-4.avif",
+          "displayOrder": 4,
+          "isCoverImage": false
+        },
+        {
+          "id": 5,
+          "imagePath": "/Images/w3-id8-5.avif",
+          "displayOrder": 5,
           "isCoverImage": false
         }
       ]
