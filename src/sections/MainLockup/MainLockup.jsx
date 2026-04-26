@@ -27,9 +27,12 @@ function MainLockup() {
         digital experience. For him, the process matters as much as the outcome.
         Problem first, solution second. He&apos;s rooted in user-centered
         thinking, where creativity and functionality work together rather than
-        against each other. Browse his case studies on <a href="">[Behance]</a>,
-        connect professionally on <a href="">[LinkedIn]</a>, or catch smaller
-        thoughts and updates on <a href="">[X]</a>.
+        against each other. Browse his case studies on{" "}
+        <a href="https://www.behance.net/mubzie">[Behance]</a>, connect
+        professionally on{" "}
+        <a href="https://www.linkedin.com/in/mubarakrabiu/">[LinkedIn]</a>, or
+        catch smaller thoughts and updates on{" "}
+        <a href="https://x.com/mubizzu">[X]</a>.
       </p>
       <div className={styles.btnContainer}>
         <Button onClick={resume} variant="primary" icon={ChevronRight}>
