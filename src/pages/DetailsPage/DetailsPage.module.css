@@ -125,7 +125,7 @@
 }
 
 /* media query */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .btnContainer {
     position: static;
     margin-bottom: var(--spacing-7);
